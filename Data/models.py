@@ -1,0 +1,103 @@
+from django.db import models
+from django.utils.html import format_html
+
+
+class MenuType(models.Model):
+    Name = models.CharField('菜品分类', max_length=50, primary_key=True)
+    Sort = models.DecimalField('排序', max_digits=20, decimal_places=0, default=0)
+
+    def __str__(self):
+        return self.Name
+
+    class Meta:
+        verbose_name_plural = '菜品分类'
+
+
+class Menu(models.Model):
+    Name = models.CharField('菜名', max_length=50, primary_key=True)
+    Type = models.ForeignKey(MenuType, null=True, on_delete=models.CASCADE, verbose_name='菜品分类')
+    Price = models.DecimalField('价格', max_digits=5, decimal_places=2)
+    Img = models.ImageField('照片', upload_to='img')
+    Introduction = models.CharField('简介', max_length=50)
+
+    def __str__(self):
+        return self.Name
+
+    class Meta:
+        verbose_name_plural = '菜单'
+
+
+class User(models.Model):
+    OpenId = models.CharField('用户d', max_length=50, primary_key=True)
+    Name = models.CharField('昵称', max_length=50)
+    Session = models.CharField('session', max_length=50)
+
+    def __str__(self):
+        return self.Name
+
+    class Meta:
+        verbose_name_plural = '用户'
+
+
+class Desk(models.Model):
+    DeskMum = models.DecimalField('桌号', max_digits=5, decimal_places=0)
+
+    def __str__(self):
+        return str(self.DeskMum)
+
+    class Meta:
+        verbose_name_plural = '桌号'
+
+
+class Order(models.Model):
+    State_CHOICES = (
+        ('未付款', '未付款'),
+        ('微信', '微信'),
+        ('支付宝', '支付宝'),
+        ('现金', '现金'),
+    )
+    Cook_CHOICES = (
+        ('已做', '已做'),
+        ('未做', '未做'),
+    )
+    Off = (
+        ('原价', 1),
+        ('98折', 0.98),
+        ('88折', 0.88),
+    )
+    OrderId = models.DecimalField('订单号', max_digits=20, decimal_places=0, primary_key=True)
+    User = models.ForeignKey(User, null=False, to_field='OpenId', on_delete=models.CASCADE, verbose_name='用户')
+    Desk = models.ForeignKey(Desk, null=False, on_delete=models.CASCADE, verbose_name='桌号')
+    Time = models.DateTimeField(auto_now_add=True, verbose_name='时间')
+    Total = models.DecimalField('总金额', max_digits=10, decimal_places=2, default=0)
+    Off = models.CharField(max_length=6, choices=Off, verbose_name='折扣', default=1.0)
+    PayTotal = models.DecimalField('实付金额', max_digits=10, decimal_places=2, default=0)
+    OrderState = models.CharField(max_length=6, choices=State_CHOICES, verbose_name='付款状态', default='未付款')
+    CookState = models.CharField(max_length=6, choices=Cook_CHOICES, verbose_name='后厨状态', default='未做')
+    Comments = models.CharField(max_length=200, verbose_name='备注', default='无')
+    Menus = models.ManyToManyField(Menu, through='OrderDetail')
+
+    def __str__(self):
+        return str(self.OrderId)
+
+    class Meta:
+        verbose_name_plural = '订单'
+        ordering = ["Time"]
+
+
+class OrderDetail(models.Model):
+    menu = models.ForeignKey(Menu, on_delete=models.CASCADE)
+    order = models.ForeignKey(Order, on_delete=models.CASCADE)
+    Number = models.IntegerField('数量', default=1)
+
+    class Meta:
+        verbose_name_plural = '订单详情'
+
+
+class Expenses(models.Model):
+    Name = models.CharField('备注', max_length=50, default="采购")
+    Time = models.DateTimeField(verbose_name='时间')
+    Price = models.DecimalField('金额', max_digits=10, decimal_places=2)
+
+    class Meta:
+        verbose_name_plural = '支出'

@@ -1,4 +1,7 @@
 from django.db import models
+from django.db.models import Sum
+from django.db.models.signals import post_save
+from django.dispatch import receiver
 from django.utils.html import format_html
 
 
@@ -51,19 +54,19 @@ class Desk(models.Model):
 
 class Order(models.Model):
     State_CHOICES = (
-        ('未付款', '未付款'),
-        ('微信', '微信'),
-        ('支付宝', '支付宝'),
-        ('现金', '现金'),
+        ('0', '未付款'),
+        ('1', '微信'),
+        ('2', '支付宝'),
+        ('3', '现金'),
     )
     Cook_CHOICES = (
-        ('已做', '已做'),
-        ('未做', '未做'),
+        ('1', '已做'),
+        ('0', '未做'),
     )
     Off = (
-        ('原价', 1),
-        ('98折', 0.98),
-        ('88折', 0.88),
+        ('1', '原价'),
+        ('0.98', '98折'),
+        ('0.88', '88折'),
     )
     OrderId = models.DecimalField('订单号', max_digits=20, decimal_places=0, primary_key=True)
     User = models.ForeignKey(User, null=False, to_field='OpenId', on_delete=models.CASCADE, verbose_name='用户')
@@ -89,6 +92,11 @@ class OrderDetail(models.Model):
     menu = models.ForeignKey(Menu, on_delete=models.CASCADE)
     order = models.ForeignKey(Order, on_delete=models.CASCADE)
     Number = models.IntegerField('数量', default=1)
+    Price = models.DecimalField('价格', max_digits=5, decimal_places=2, default=0)
+
+    def save(self, *args, **kwargs):
+        self.Price = Menu.objects.get(Name=self.menu).Price
+        super().save(*args, **kwargs)
 
     class Meta:
         verbose_name_plural = '订单详情'

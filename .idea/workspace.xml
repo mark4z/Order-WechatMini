@@ -9,7 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Order$Test__Data_tests_AnimalTestCase_test.coverage" NAME="Test: Data.tests.AnimalTestCase.test Coverage Results" MODIFIED="1547299644344" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Order$Test__Data_tests_AnimalTestCase_test.coverage" NAME="Test: Data.tests.AnimalTestCase.test Coverage Results" MODIFIED="1547888521717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -46,11 +46,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data/models.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cart/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cart/redis.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,6 +85,7 @@
       <find>deb</find>
       <find>save</find>
       <find>_changeform_view</find>
+      <find>cache</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -80,7 +96,6 @@
       <list>
         <option value="$PROJECT_DIR$/Order/models.py" />
         <option value="$PROJECT_DIR$/Order/admin.py" />
-        <option value="$PROJECT_DIR$/Data/views.py" />
         <option value="$PROJECT_DIR$/admin/templates/registration/logged_out.html" />
         <option value="$PROJECT_DIR$/admin/templates/admin/base.html" />
         <option value="$PROJECT_DIR$/admin/templates/admin/404.html" />
@@ -90,10 +105,17 @@
         <option value="$PROJECT_DIR$/Data/templates/admin/change_form.html" />
         <option value="$PROJECT_DIR$/templates/admin/login.html" />
         <option value="$PROJECT_DIR$/templates/admin/404.html" />
-        <option value="$PROJECT_DIR$/Order/settings.py" />
-        <option value="$PROJECT_DIR$/Data/models.py" />
+        <option value="$PROJECT_DIR$/Order/urls.py" />
+        <option value="$PROJECT_DIR$/Data/urls.py" />
         <option value="$PROJECT_DIR$/Data/tests.py" />
+        <option value="$PROJECT_DIR$/Data/views.py" />
         <option value="$PROJECT_DIR$/Data/admin.py" />
+        <option value="$PROJECT_DIR$/Data/models.py" />
+        <option value="$PROJECT_DIR$/Order/settings.py" />
+        <option value="$PROJECT_DIR$/Cart/__init__.py" />
+        <option value="$PROJECT_DIR$/Cart/util.py" />
+        <option value="$PROJECT_DIR$/Cart/views.py" />
+        <option value="$PROJECT_DIR$/Cart/redis.py" />
       </list>
     </option>
   </component>
@@ -119,7 +141,7 @@
             <path>
               <item name="Order" type="b2602c69:ProjectViewProjectNode" />
               <item name="Order" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
+              <item name="Cart" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -136,16 +158,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\c\PycharmProjects\Order" />
-      <recent name="C:\Users\c\PycharmProjects\Order\admin\admin" />
-      <recent name="C:\Users\c\PycharmProjects\Order\Data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\c\PycharmProjects\Order\templates\admin" />
       <recent name="C:\Users\c\PycharmProjects\Order\Data\templates\admin" />
       <recent name="C:\Users\c\PycharmProjects\Order" />
       <recent name="C:\Users\c\PycharmProjects\Order\admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\c\PycharmProjects\Order" />
+      <recent name="C:\Users\c\PycharmProjects\Order\admin\admin" />
+      <recent name="C:\Users\c\PycharmProjects\Order\Data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -232,19 +254,46 @@
       <workItem from="1547278269118" duration="15321000" />
       <workItem from="1547294541516" duration="2000" />
       <workItem from="1547299033208" duration="6450000" />
+      <workItem from="1547376382542" duration="1702000" />
+      <workItem from="1547883033747" duration="5458000" />
+      <workItem from="1547946725846" duration="9301000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.12 at 21h 25m 46s.xml">
+    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 54m 00s.xml">
       <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
-    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.12 at 21h 27m 25s.xml">
+    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 55m 49s.xml">
+      <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 56m 32s.xml">
+      <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 57m 02s.xml">
+      <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 57m 26s.xml">
+      <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 57m 45s.xml">
+      <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 58m 06s.xml">
+      <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 58m 26s.xml">
+      <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 59m 02s.xml">
+      <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 17h 02m 03s.xml">
       <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43235000" />
+    <option name="totallyTimeSpent" value="59696000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -259,12 +308,12 @@
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23903178" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32903227" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32419354" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48548388" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -274,12 +323,12 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32419354" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32580644" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32419354" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32903227" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
       <window_info anchor="right" id="Database" order="4" weight="0.34114978" />
     </layout>
   </component>
@@ -288,13 +337,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/wsgiref/simple_server.py</url>
-          <line>34</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -305,39 +347,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/296d6b7f-81ef-442c-834b-de48113657b6/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Order/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/admin/views/main.py" />
-    <entry file="file://$PROJECT_DIR$/admin/admin/views/autocomplete.py" />
-    <entry file="file://$PROJECT_DIR$/admin/admin/templates/admin/404.html" />
-    <entry file="file://$PROJECT_DIR$/admin/admin/templates/admin/500.html" />
-    <entry file="file://$PROJECT_DIR$/admin/admin/templates/admin/base.html" />
-    <entry file="file://$PROJECT_DIR$/admin/admin/templates/admin/base_site.html" />
-    <entry file="file://$PROJECT_DIR$/admin/admin/templates/admin/index.html" />
-    <entry file="file://$PROJECT_DIR$/admin/admin/sites.py" />
-    <entry file="das://296d6b7f-81ef-442c-834b-de48113657b6/schema/main/table/django_migrations" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="359" column="33" lean-forward="true" selection-start-line="359" selection-start-column="33" selection-end-line="359" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/options.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="343" selection-start-line="343" selection-end-line="343" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/manager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -387,16 +396,8 @@
     <entry file="file://$PROJECT_DIR$/templates/admin/auth/user/add_form.html" />
     <entry file="file://$PROJECT_DIR$/templates/admin/auth/user/change_password.html" />
     <entry file="file://$PROJECT_DIR$/templates/admin/login.html" />
-    <entry file="file://$PROJECT_DIR$/Order/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/admin/404.html" />
     <entry file="file://$PROJECT_DIR$/templates/admin/base.html" />
-    <entry file="das://296d6b7f-81ef-442c-834b-de48113657b6/schema/main/table/Data_order" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/fields/related.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -453,16 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="290" selection-start-line="290" selection-end-line="290" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -527,13 +518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/wsgiref/simple_server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/forms/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -550,20 +534,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/admin.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/wsgiref/simple_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+        <state relative-caret-position="88">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://296d6b7f-81ef-442c-834b-de48113657b6/schema/main/table/Data_order">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://296d6b7f-81ef-442c-834b-de48113657b6/schema/main/table/Data_menu">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="614" selection-start-line="614" selection-end-line="614" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+        <state relative-caret-position="244">
+          <caret line="103" column="22" lean-forward="true" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
+          <folding>
+            <element signature="e#224#472#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#192#266#0" />
+            <element signature="e#296#366#0" />
+            <element signature="e#407#492#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
+          <folding>
+            <element signature="e#1#33#0" expanded="true" />
+            <element signature="e#1130#1557#0" />
+            <element signature="e#1209#1524#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="108" column="5" lean-forward="true" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cart/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django_redis/client/sharded.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django_redis/client/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cart/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django_redis/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="32" lean-forward="true" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/cache/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="119" column="30" lean-forward="true" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cart/redis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

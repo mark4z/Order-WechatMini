@@ -31,7 +31,7 @@ class Menu(models.Model):
 
 
 class User(models.Model):
-    OpenId = models.CharField('用户d', max_length=50, primary_key=True)
+    OpenId = models.CharField('用户id', max_length=50, primary_key=True)
     Name = models.CharField('昵称', max_length=50)
     Session = models.CharField('session', max_length=50)
 
@@ -43,7 +43,7 @@ class User(models.Model):
 
 
 class Desk(models.Model):
-    DeskMum = models.DecimalField('桌号', max_digits=5, decimal_places=0)
+    DeskMum = models.DecimalField('桌号', max_digits=5, decimal_places=0,primary_key=True)
 
     def __str__(self):
         return str(self.DeskMum)
@@ -100,6 +100,9 @@ class OrderDetail(models.Model):
 
     class Meta:
         verbose_name_plural = '订单详情'
+
+    def __str__(self):
+        return str(self.menu)
 
 
 class Expenses(models.Model):

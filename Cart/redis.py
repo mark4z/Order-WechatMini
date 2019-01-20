@@ -12,17 +12,26 @@ def creat_detail(desk, name, num):
 
 
 def set_cache(detail):
-    cache_list = cache.get_or_set(detail['desk'], [], 60 * 30)
-    if detail in cache_list:
-        detail['num'] += 1
-    else:
+    cache_list = cache.get_or_set(detail['desk'], [])
+    flag = 1
+    for i in cache_list:
+        if i['name'] == detail['name']:
+            i['num'] = int(i['num']) + 1
+            flag = 0
+    if flag:
         cache_list.append(detail)
+    cache.set(detail['desk'], cache_list, 60 * 30)
 
 
 def del_cache(detail):
     cache_list = cache.get_or_set(detail['desk'], [])
-    if detail in cache_list:
-        detail['num'] -= 1
+    for i in cache_list:
+        if i['name'] == detail['name']:
+            if i['num'] > 1:
+                i['num'] = int(i['num']) - 1
+            else:
+                cache_list.remove(i)
+    cache.set(detail['desk'], cache_list, 60 * 30)
 
 
 def clean_cache(desk):
@@ -30,4 +39,4 @@ def clean_cache(desk):
 
 
 def get_cache(desk):
-    return cache.get(desk)
+    return cache.get_or_set(desk, [])

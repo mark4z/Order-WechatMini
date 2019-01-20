@@ -1,20 +1,33 @@
-from django_redis import get_redis_connection
 from django.core.cache import cache
+from django.core import serializers
+import json
 
 
-class Redis:
-    con = get_redis_connection("default")
+def creat_detail(desk, name, num):
+    return {
+        'desk': desk,
+        'name': name,
+        'num': num
+    }
 
-    def set_cache(self, desk, name, num):
-        pass
 
-    def get_cache(self, desk):
-        pass
+def set_cache(detail):
+    cache_list = cache.get_or_set(detail['desk'], [], 60 * 30)
+    if detail in cache_list:
+        detail['num'] += 1
+    else:
+        cache_list.append(detail)
 
-    def del_cache(self, desk):
-        pass
 
-    def creat_order_detail(self, desk):
-        for i in self.get_cache(desk):
-            pass
-        self.del_cache(desk)
+def del_cache(detail):
+    cache_list = cache.get_or_set(detail['desk'], [])
+    if detail in cache_list:
+        detail['num'] -= 1
+
+
+def clean_cache(desk):
+    cache.delete(desk)
+
+
+def get_cache(desk):
+    return cache.get(desk)

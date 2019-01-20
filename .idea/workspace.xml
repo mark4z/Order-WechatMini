@@ -9,7 +9,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Order$views.coverage" NAME="views Coverage Results" MODIFIED="1547969197216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cart" />
     <SUITE FILE_PATH="coverage/Order$Test__Data_tests_AnimalTestCase_test.coverage" NAME="Test: Data.tests.AnimalTestCase.test Coverage Results" MODIFIED="1547888521717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Order$Test__Cart_tests_TestCase_test.coverage" NAME="Test: Cart.tests.TestCase.test Coverage Results" MODIFIED="1547971695357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -46,26 +48,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cart/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="209">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Cart/redis.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cart/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -105,21 +104,23 @@
         <option value="$PROJECT_DIR$/Data/templates/admin/change_form.html" />
         <option value="$PROJECT_DIR$/templates/admin/login.html" />
         <option value="$PROJECT_DIR$/templates/admin/404.html" />
-        <option value="$PROJECT_DIR$/Order/urls.py" />
         <option value="$PROJECT_DIR$/Data/urls.py" />
         <option value="$PROJECT_DIR$/Data/tests.py" />
-        <option value="$PROJECT_DIR$/Data/views.py" />
         <option value="$PROJECT_DIR$/Data/admin.py" />
         <option value="$PROJECT_DIR$/Data/models.py" />
-        <option value="$PROJECT_DIR$/Order/settings.py" />
         <option value="$PROJECT_DIR$/Cart/__init__.py" />
         <option value="$PROJECT_DIR$/Cart/util.py" />
-        <option value="$PROJECT_DIR$/Cart/views.py" />
+        <option value="$PROJECT_DIR$/Order/urls.py" />
+        <option value="$PROJECT_DIR$/Order/settings.py" />
+        <option value="$PROJECT_DIR$/Cart/tests.py" />
         <option value="$PROJECT_DIR$/Cart/redis.py" />
+        <option value="$PROJECT_DIR$/Data/views.py" />
+        <option value="$PROJECT_DIR$/Cart/views.py" />
+        <option value="$PROJECT_DIR$/Cart/urls.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="50" />
     <option name="width" value="1346" />
@@ -158,16 +159,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\c\PycharmProjects\Order\templates\admin" />
-      <recent name="C:\Users\c\PycharmProjects\Order\Data\templates\admin" />
-      <recent name="C:\Users\c\PycharmProjects\Order" />
-      <recent name="C:\Users\c\PycharmProjects\Order\admin" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\c\PycharmProjects\Order" />
       <recent name="C:\Users\c\PycharmProjects\Order\admin\admin" />
       <recent name="C:\Users\c\PycharmProjects\Order\Data" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\c\PycharmProjects\Order\Cart" />
+      <recent name="C:\Users\c\PycharmProjects\Order\templates\admin" />
+      <recent name="C:\Users\c\PycharmProjects\Order\Data\templates\admin" />
+      <recent name="C:\Users\c\PycharmProjects\Order" />
+      <recent name="C:\Users\c\PycharmProjects\Order\admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -183,6 +185,26 @@
     </option>
   </component>
   <component name="RunManager" selected="Django server.Order">
+    <configuration name="Test: Cart.tests.TestCase.test" type="DjangoTestsConfigurationType" temporary="true">
+      <module name="Order" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="Cart.tests.TestCase.test" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test: Data.tests.AnimalTestCase.test" type="DjangoTestsConfigurationType" temporary="true">
       <module name="Order" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -201,6 +223,28 @@
       <option name="CUSTOM_SETTINGS" value="false" />
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Order" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Cart" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Cart/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Order" type="Python.DjangoServer" factoryName="Django server">
@@ -229,6 +273,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Django tests.Test: Cart.tests.TestCase.test" />
+        <item itemvalue="Python.views" />
         <item itemvalue="Django tests.Test: Data.tests.AnimalTestCase.test" />
       </list>
     </recent_temporary>
@@ -257,31 +303,11 @@
       <workItem from="1547376382542" duration="1702000" />
       <workItem from="1547883033747" duration="5458000" />
       <workItem from="1547946725846" duration="9301000" />
+      <workItem from="1547967290245" duration="5917000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 54m 00s.xml">
-      <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 55m 49s.xml">
-      <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 56m 32s.xml">
-      <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 57m 02s.xml">
-      <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 57m 26s.xml">
-      <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 57m 45s.xml">
-      <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 58m 06s.xml">
-      <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
     <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 16h 58m 26s.xml">
       <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
@@ -291,9 +317,30 @@
     <history-entry file="Test__Data_tests_AnimalTestCase_test - 2019.01.19 at 17h 02m 03s.xml">
       <configuration name="Test: Data.tests.AnimalTestCase.test" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
+    <history-entry file="Test__Cart_tests_TestCase_test - 2019.01.20 at 15h 27m 41s.xml">
+      <configuration name="Test: Cart.tests.TestCase.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Cart_tests_TestCase_test - 2019.01.20 at 15h 31m 06s.xml">
+      <configuration name="Test: Cart.tests.TestCase.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Cart_tests_TestCase_test - 2019.01.20 at 15h 33m 01s.xml">
+      <configuration name="Test: Cart.tests.TestCase.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Cart_tests_TestCase_test - 2019.01.20 at 15h 35m 46s.xml">
+      <configuration name="Test: Cart.tests.TestCase.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Cart_tests_TestCase_test - 2019.01.20 at 16h 06m 51s.xml">
+      <configuration name="Test: Cart.tests.TestCase.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Cart_tests_TestCase_test - 2019.01.20 at 16h 07m 49s.xml">
+      <configuration name="Test: Cart.tests.TestCase.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="Test__Cart_tests_TestCase_test - 2019.01.20 at 16h 08m 16s.xml">
+      <configuration name="Test: Cart.tests.TestCase.test" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59696000" />
+    <option name="totallyTimeSpent" value="65613000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -308,12 +355,12 @@
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14674735" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32419354" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32419354" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.48548388" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -347,36 +394,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="191" selection-start-line="191" selection-end-line="191" />
-          <folding>
-            <element signature="e#162#5727#0" />
-            <element signature="e#568#724#0" />
-            <element signature="e#758#913#0" />
-            <element signature="e#946#1057#0" />
-            <element signature="e#1094#2511#0" />
-            <element signature="e#2552#2561#0" />
-            <element signature="e#2640#3564#0" />
-            <element signature="e#3652#3909#0" />
-            <element signature="e#3967#4117#0" />
-            <element signature="e#4164#4383#0" />
-            <element signature="e#4443#4561#0" />
-            <element signature="e#4603#4667#0" />
-            <element signature="e#4790#5018#0" />
-            <element signature="e#5047#5509#0" />
-            <element signature="e#5548#5678#0" />
-            <element signature="e#5712#5727#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/admin/templatetags/admin_list.py" />
-    <entry file="file://$PROJECT_DIR$/admin/admin/templates/registration/password_change_done.html" />
-    <entry file="file://$PROJECT_DIR$/admin/admin/templates/admin/edit_inline/tabular.html" />
-    <entry file="file://$PROJECT_DIR$/admin/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/admin/admin/__init__.py" />
     <entry file="file://$PROJECT_DIR$/admin/login.html" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/contrib/admin/forms.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -433,13 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
@@ -558,60 +568,10 @@
     <entry file="file://$PROJECT_DIR$/Order/wsgi.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Order/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="614" selection-start-line="614" selection-end-line="614" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="12" lean-forward="true" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="103" column="22" lean-forward="true" selection-start-line="103" selection-start-column="22" selection-end-line="103" selection-end-column="22" />
-          <folding>
-            <element signature="e#224#472#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-            <element signature="e#192#266#0" />
-            <element signature="e#296#366#0" />
-            <element signature="e#407#492#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -624,13 +584,6 @@
             <element signature="e#1130#1557#0" />
             <element signature="e#1209#1524#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Order/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="108" column="5" lean-forward="true" selection-start-line="108" selection-start-column="5" selection-end-line="108" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -651,16 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cart/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django_redis/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -668,19 +611,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/cache/__init__.py">
+    <entry file="file://$PROJECT_DIR$/Cart/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="119" column="30" lean-forward="true" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
+        <state relative-caret-position="19">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Data/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="8" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django_redis/cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="105" column="64" selection-start-line="105" selection-start-column="64" selection-end-line="105" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/cache/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="298" column="52" lean-forward="true" selection-start-line="298" selection-start-column="52" selection-end-line="298" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cart/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Cart/redis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="190">
+          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="93" column="10" lean-forward="true" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
+          <folding>
+            <element signature="e#224#472#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cart/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cart/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>

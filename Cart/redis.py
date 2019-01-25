@@ -5,9 +5,9 @@ import json
 
 def creat_detail(desk, name, num):
     return {
-        'desk': desk,
-        'name': name,
-        'num': num
+        "desk": desk,
+        "name": name,
+        "num": num
     }
 
 
@@ -24,7 +24,7 @@ def set_cache(detail):
 
 
 def del_cache(detail):
-    cache_list = cache.get_or_set(detail['desk'], [])
+    cache_list = cache.get_or_set(detail["desk"], [])
     for i in cache_list:
         if i['name'] == detail['name']:
             if i['num'] > 1:

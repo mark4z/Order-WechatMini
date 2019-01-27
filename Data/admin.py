@@ -32,7 +32,7 @@ class OrderDetailInline(admin.TabularInline):
 @admin.register(Order)
 class OrderAdmin(admin.ModelAdmin):
     inlines = (OrderDetailInline,)
-    list_display = ('Desk', 'User', 'Total', 'Off', 'PayTotal', 'Time', 'CookState', 'OrderState',)
+    list_display = ('OrderId','Desk', 'User', 'Total', 'Off', 'PayTotal', 'Time', 'CookState', 'OrderState',)
     list_editable = ['OrderState', 'CookState']
     list_per_page = 10
     list_filter = ('OrderState', 'Desk')

@@ -43,7 +43,7 @@ class User(models.Model):
 
 
 class Desk(models.Model):
-    DeskMum = models.DecimalField('桌号', max_digits=5, decimal_places=0,primary_key=True)
+    DeskMum = models.DecimalField('桌号', max_digits=5, decimal_places=0, primary_key=True)
 
     def __str__(self):
         return str(self.DeskMum)
@@ -69,8 +69,8 @@ class Order(models.Model):
         ('0.88', '88折'),
     )
     OrderId = models.DecimalField('订单号', max_digits=20, decimal_places=0, primary_key=True)
-    User = models.ForeignKey(User, null=False, to_field='OpenId', on_delete=models.CASCADE, verbose_name='用户')
-    Desk = models.ForeignKey(Desk, null=False, on_delete=models.CASCADE, verbose_name='桌号')
+    User = models.ForeignKey(User, null=False, to_field='OpenId', on_delete=models.DO_NOTHING, verbose_name='用户')
+    Desk = models.ForeignKey(Desk, null=False, on_delete=models.DO_NOTHING, verbose_name='桌号')
     Time = models.DateTimeField(auto_now_add=True, verbose_name='时间')
     Total = models.DecimalField('总金额', max_digits=10, decimal_places=2, default=0)
     Off = models.CharField(max_length=6, choices=Off, verbose_name='折扣', default=1.0)
@@ -92,7 +92,7 @@ class OrderDetail(models.Model):
     menu = models.ForeignKey(Menu, on_delete=models.CASCADE)
     order = models.ForeignKey(Order, on_delete=models.CASCADE)
     Number = models.IntegerField('数量', default=1)
-    Price = models.DecimalField('价格', max_digits=5, decimal_places=2, default=0)
+    Price = models.DecimalField('价格', null=True, max_digits=5, decimal_places=2, default=0)
 
     def save(self, *args, **kwargs):
         self.Price = Menu.objects.get(Name=self.menu).Price

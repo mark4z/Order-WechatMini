@@ -16,14 +16,14 @@
     "borderStyle": "black",
     "list": [
       {
-        "selectedIconPath": "images/home_s.png",
-        "iconPath": "images/home.png",
+        "selectedIconPath":"images/ic_menu_choice_pressed.png",
+        "iconPath": "images/ic_menu_choice_nor.png",
         "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
-        "selectedIconPath": "images/mine_s.png",
-        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/ic_menu_me_pressed.png",
+        "iconPath": "images/ic_menu_me_nor.png",
         "pagePath": "pages/index/index",
         "text": "我的"
       }

@@ -1,6 +1,111 @@
-/* pages/carte/carte.wxss */
+/* pages/list/list.wxss */
 
-.heading {
-  height: 150rpx;
-  background-color: #fff;
+.page {
+  overflow-y: hidden;
+}
+
+.list-left-menu {
+  width: 160rpx;
+  height: 92%;
+  background-color: #f9f9f9;
+}
+
+.list-left-menu {
+  font-size: 26rpx;
+  position: absolute;
+  left: 0px;
+  z-index: 10;
+}
+
+.list-left-menu-box-unselect {
+  padding: 15rpx;
+  border-bottom: 0px solid #e3e3e3;
+  height: 72rpx;
+  color: #6c6c6c;
+  background: #f9f9f9;
+}
+
+.list-left-menu-box-selected {
+  padding: 15rpx;
+  height: 72rpx;
+  color: #e53085;
+  border-left: 3px solid #e53085;
+  background: white;
+}
+
+.list-tab {
+  margin-left: 170rpx;
+  font-size: 25rpx;
+  background: #f3f4f6;
+  color: #cbcccf;
+  padding: 2px;
+}
+
+.list-menu-name {
+  text-align: center;
+  margin-top: 20rpx;
+}
+
+.operate-bar {
+  z-index: 1001;
+  position: absolute;
+  bottom: 0px;
+  height: 8%;
+  width: 100%;
+  display: flex;
+}
+
+.Cart {
+  width: 75%;
+  background: #fafafa;
+  height: 100%;
+}
+
+.Cart-icon {
+  font-size: 40px;
+  color: #87888e;
+  margin-left: 10px;
+  margin-top: 10rpx;
+  position: relative;
+}
+
+.number-msg {
+  padding: 1rpx 15rpx;
+  border-radius: 50%;
+  background: rgb(14, 14, 14);
+  color: rgb(255, 255, 255);
+  font-size: 36rpx;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+}
+
+.Cart-price {
+  color: #000;
+  display: flex;
+  align-items: center;
+  margin-top: 10rpx;
+  margin-left: 86rpx;
+  font-size: 36rpx;
+}
+
+.submit-btn {
+  height: 100%;
+  background: #a8b4af;
+  width: 25%;
+  display: flex;
+}
+
+.submit-btn-label {
+  color: #a9a9a9;
+  font-size: 36rpx;
+  margin: auto;
+}
+
+.activity-color-bg {
+  background: #e53085;
+}
+
+.color-white {
+  color: white;
 }

@@ -1,0 +1,5 @@
+<view class="container">
+  <text class="user-welcome">{{welcome}}</text>
+  <text class='user-guide'>{{guide}}</text>
+</view>
+<button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo" type="primary">{{begin}}</button>

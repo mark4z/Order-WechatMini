@@ -1,0 +1,4 @@
+<!--pages/carte/carte.wxml-->
+<view class='heading'>
+<text>小食记</text>
+  </view>

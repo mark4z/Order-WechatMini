@@ -1,0 +1,18 @@
+<view class='swiper'>
+  <swiper autoplay='true' circular='true'>
+    <block wx:for="{{img_urls}}" wx:key="*this">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+
+<view class='btn-bar'>
+  <button class='btn_start'>开始点餐</button>
+  <button class='btn_start'>预约点餐</button>
+</view>
+
+<view class='div'>
+<image class='index_img' src="{{index_img}}"/>
+</view>

@@ -1,0 +1,6 @@
+/* pages/carte/carte.wxss */
+
+.heading {
+  height: 150rpx;
+  background-color: #fff;
+}

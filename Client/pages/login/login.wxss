@@ -1,0 +1,8 @@
+/* pages/login/login.wxss */
+.user-welcome{
+  font-size: 60rpx;
+}
+button{
+  width: 80%;
+  color: rgb(148, 32, 32);
+}

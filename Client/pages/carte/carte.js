@@ -6,6 +6,8 @@ Page({
    */
   data: {
     'MenuType': [1, 2, 3, 4, 5, 6],
+    'total':1.01,
+    'cart':[],
   },
 
   /**

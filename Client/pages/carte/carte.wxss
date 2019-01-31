@@ -4,17 +4,28 @@
   overflow-y: hidden;
 }
 
-.list-left-menu {
-  width: 160rpx;
-  height: 92%;
-  background-color: #f9f9f9;
+.div {
+  display: flex;
+  flex-direction: row;
 }
 
 .list-left-menu {
+  width: 24%;
+  height: 92%;
+  background-color: #f9f9f9;
   font-size: 26rpx;
   position: absolute;
   left: 0px;
-  z-index: 10;
+  z-index: 0;
+}
+
+.menu_list {
+  position: absolute;
+  right: 0px;
+  background-color: white;
+  width: 76%;
+  height: 92%;
+  z-index: 1;
 }
 
 .list-left-menu-box-unselect {
@@ -34,7 +45,6 @@
 }
 
 .list-tab {
-  margin-left: 170rpx;
   font-size: 25rpx;
   background: #f3f4f6;
   color: #cbcccf;
@@ -46,66 +56,41 @@
   margin-top: 20rpx;
 }
 
-.operate-bar {
-  z-index: 1001;
-  position: absolute;
-  bottom: 0px;
-  height: 8%;
-  width: 100%;
-  display: flex;
-}
-
 .Cart {
-  width: 75%;
-  background: #fafafa;
+  z-index: 10;
+  top: 88%;
+  margin-left: 2.5%;
+  height: 6%;
+  width: 95%;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  border: 1%;
+  border-color: black;
+  border-radius: 50rpx;
+}
+
+.Cart>text {
+  margin-left: 10%;
+}
+
+.Cart>button {
+  background-color: rgb(0, 0, 0);
+  margin-right: 0%;
+  width: 186rpx;
   height: 100%;
-}
-
-.Cart-icon {
-  font-size: 40px;
-  color: #87888e;
-  margin-left: 10px;
-  margin-top: 10rpx;
-  position: relative;
-}
-
-.number-msg {
-  padding: 1rpx 15rpx;
-  border-radius: 50%;
-  background: rgb(14, 14, 14);
-  color: rgb(255, 255, 255);
-  font-size: 36rpx;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-}
-
-.Cart-price {
-  color: #000;
+  border: 1rpx;
+  border-color: white;
+  border-top-right-radius: 50rpx;
+  border-bottom-right-radius: 50rpx;
   display: flex;
   align-items: center;
-  margin-top: 10rpx;
-  margin-left: 86rpx;
-  font-size: 36rpx;
 }
 
-.submit-btn {
-  height: 100%;
-  background: #a8b4af;
-  width: 25%;
-  display: flex;
-}
-
-.submit-btn-label {
-  color: #a9a9a9;
-  font-size: 36rpx;
-  margin: auto;
-}
-
-.activity-color-bg {
-  background: #e53085;
-}
-
-.color-white {
+.Cart>button>text {
+  margin-left: 6%;
   color: white;
+  font-size: 36rpx;
 }

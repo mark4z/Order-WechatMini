@@ -1,26 +1,28 @@
 <view class='left-menu'>
-  <!-- 左侧菜单 -->
   <view class="list-left-menu">
     <view class="list-left-menu-box-selected">
       <view class="list-menu-name">selected</view>
     </view>
-    <view wx:for="{{MenuType}}" wx:key="unique" class="{{index==activeIndex?'list-left-menu-box-selected':'list-left-menu-box-unselect'}}" data-index="{{index}}">
+    <view wx:for="{{MenuType}}" wx:key="Sort" class="list-left-menu-box-unselect" data-index="{{index}}">
       <view class="list-menu-name">{{item}}</view>
     </view>
   </view>
 </view>
-<!-- 购物车 -->
-<view class="operate-bar">
-  <view class='Cart'>
-    <view style='padding:5px;display:flex'>
-      <i class="iconfont icon-Cartfill Cart-icon activity-color">
-        <span class="number-msg ">6</span>
-      </i>
-      <view class='Cart-price'>购物车是空的</view>
-      <view class='Cart-price' style='color:white;font-size:18px'>10.00</view>
-    </view>
-  </view>
-      <view class="submit-btn">
-      <view class="submit-btn-label color-white">选好了</view>
-    </view>
+<scroll-view class='menu_list'>
+  <view class="content"wx:for="{{MenuType}}">
+    <view class='content-list'>
+        <view class='issue-name '>
+          <view>红烧茄子</view>
+          <view style='margin-top:20rpx;color:#F05A86 '>
+            10.00
+          </view>
+        </view>
+      </view>
+</view>
+</scroll-view>
+<view class='Cart '>
+  <text>1234</text>
+  <button>
+    <text>去结算</text>
+  </button>
 </view>

@@ -42,7 +42,7 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "login",
+					"name": "list",
 					"pathName": "pages/carte/carte",
 					"query": "",
 					"scene": null

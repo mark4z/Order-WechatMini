@@ -9,18 +9,17 @@
   </view>
 </view>
 <scroll-view class='menu_list'>
-  <view class="content"wx:for="{{MenuType}}">
-    <view class='content-list'>
-        <view class='issue-name '>
-          <view>红烧茄子</view>
-          <view style='margin-top:20rpx;color:#F05A86 '>
-            10.00
-          </view>
-        </view>
-      </view>
-</view>
+  <view class='content_list' wx:for="{{MenuType}}" wx:key="Sort">
+    <view class='content_img'>
+      <image mode='widthFix' lazy-load='true' src='https://www.qqmxd.com/static/{{img}}'></image>
+    </view>
+    <view class='content_name'>
+      <view style='font-size:32rpx'>{{name}}</view>
+      <view style='color:red;font-size:30rpx'>¥ {{price}}</view>
+    </view>
+  </view>
 </scroll-view>
-<view class='Cart '>
+<view class='Cart'>
   <text>1234</text>
   <button>
     <text>去结算</text>

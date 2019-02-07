@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3a4ca5e-d986-4168-9748-eebf54e76806" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pay/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Static/index/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Static/index/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Static/index/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Static/index/4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/云虫女主_月牙儿_鬼刀壁纸_彼岸图网.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/云虫女主_月牙儿_鬼刀壁纸_彼岸图网_USVVSed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/pages/carte/carte.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/carte/carte.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/project.config.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +51,24 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="9" column="80" lean-forward="true" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+              <folding>
+                <element signature="e#976#1249#0" />
+                <element signature="e#1282#1476#0" />
+                <element signature="e#1510#2896#0" />
+                <element signature="e#2936#3441#0" />
+                <element signature="e#3478#3710#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,13 +127,13 @@
         <option value="$PROJECT_DIR$/Order/urls.py" />
         <option value="$PROJECT_DIR$/Pay/urls.py" />
         <option value="$PROJECT_DIR$/Pay/views.py" />
-        <option value="$PROJECT_DIR$/Data/models.py" />
         <option value="$PROJECT_DIR$/Data/admin.py" />
         <option value="$PROJECT_DIR$/Order/settings.py" />
+        <option value="$PROJECT_DIR$/Data/models.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="50" />
     <option name="width" value="1346" />
@@ -138,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,13 +156,12 @@
             <path>
               <item name="Order" type="b2602c69:ProjectViewProjectNode" />
               <item name="Order" type="462c0819:PsiDirectoryNode" />
-              <item name="Static" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,6 +326,7 @@
       <workItem from="1548490631481" duration="711000" />
       <workItem from="1548504929955" duration="1545000" />
       <workItem from="1548559627936" duration="7118000" />
+      <workItem from="1549434943696" duration="154000" />
     </task>
     <servers />
   </component>
@@ -355,7 +363,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88112000" />
+    <option name="totallyTimeSpent" value="88266000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,14 +375,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="50" width="1346" height="698" extended-state="0" />
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1726283" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17019667" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36702126" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36612904" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3467742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -796,20 +805,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="91" column="26" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
-          <folding>
-            <element signature="e#224#472#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Order/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="129" column="28" selection-start-line="129" selection-start-column="28" selection-end-line="129" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="80" lean-forward="true" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+          <folding>
+            <element signature="e#976#1249#0" />
+            <element signature="e#1282#1476#0" />
+            <element signature="e#1510#2896#0" />
+            <element signature="e#2936#3441#0" />
+            <element signature="e#3478#3710#0" />
+          </folding>
         </state>
       </provider>
     </entry>

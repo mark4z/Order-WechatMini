@@ -1,23 +1,44 @@
 // pages/carte/carte.js
+var static_url = "https://www.qqmxd.com/"
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    'MenuType': [1, 2, 3, 4, 5, 6],
-    'total':1.01,
-    'cart':[],
-    'img':'img/微信截图_20180920211116.png',
-    'name':'黄金柿子椒',
-    'price':20,
+    'MenuType': [],
+    'Menus': [],
+    'cart': [],
+    'activeMenuType': 0
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function(options) {
-
+    var that = this
+    wx.request({
+      url: static_url + 'mydata/MenuType',
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success(res) {
+        that.setData({
+          MenuType: res.data
+        })
+      }
+    })
+    wx.request({
+      url: static_url + 'mydata/Menu',
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success(res) {
+        that.setData({
+          Menus: res.data
+        })
+      }
+    })
   },
 
   /**
@@ -67,5 +88,11 @@ Page({
    */
   onShareAppMessage: function() {
 
-  }
+  },
+  select_type: function(e) {
+    var index = e.currentTarget.dataset.index
+    this.setData({
+      activeMenuType: index,
+    })
+  },
 })

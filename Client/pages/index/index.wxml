@@ -9,7 +9,7 @@
 </view>
 
 <view class='btn-bar'>
-  <button class='btn_start'>开始点餐</button>
+  <button class='btn_start' bindtap='Go'>开始点餐</button>
   <button class='btn_start'>预约点餐</button>
 </view>
 

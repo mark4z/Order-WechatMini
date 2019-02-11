@@ -54,4 +54,9 @@ Page({
       }
     })
   },
+  Go:function(){
+    wx.navigateTo({
+      url: '/pages/carte/carte'
+    })
+  }
 })

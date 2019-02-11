@@ -1,23 +1,23 @@
+<view class='welcome'></view>
 <view class='left-menu'>
   <view class="list-left-menu">
-    <view class="list-left-menu-box-selected">
-      <view class="list-menu-name">selected</view>
-    </view>
-    <view wx:for="{{MenuType}}" wx:key="Sort" class="list-left-menu-box-unselect" data-index="{{index}}">
-      <view class="list-menu-name">{{item}}</view>
+    <view wx:for="{{MenuType}}" wx:key="Sort" class="{{index==activeMenuType?'list-left-menu-box-selected':'list-left-menu-box-unselect'}}" data-index="{{index}}"  bindtap='select_type'>
+      <view class="list-menu-name">{{item.pk}}</view>
     </view>
   </view>
 </view>
-<scroll-view class='menu_list'>
-  <view class='content_list' wx:for="{{MenuType}}" wx:key="Sort">
+<scroll-view scroll-y='true' class='menu_list'>
+  <view class='content_list' wx:for="{{Menus}}" wx:key="Sort">
     <view class='content_img'>
-      <image mode='widthFix' lazy-load='true' src='https://www.qqmxd.com/static/{{img}}'></image>
+      <image mode='widthFix' lazy-load='true' src='https://www.qqmxd.com/static/{{item.fields.Img}}'></image>
     </view>
     <view class='content_name'>
-      <view style='font-size:32rpx'>{{name}}</view>
-      <view style='color:red;font-size:30rpx'>¥ {{price}}</view>
+      <view style='font-size:32rpx'>{{item.pk}}</view>
+      <view style='color:red;font-size:30rpx'>¥ {{item.fields.Price}}</view>
     </view>
+  <view class='iconfont icon-jiahao'></view>
   </view>
+  <view class='content_list_blank'></view>
 </scroll-view>
 <view class='Cart'>
   <text>1234</text>

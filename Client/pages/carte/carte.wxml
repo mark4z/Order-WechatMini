@@ -1,21 +1,25 @@
 <view class='welcome'></view>
 <view class='left-menu'>
   <view class="list-left-menu">
-    <view wx:for="{{MenuType}}" wx:key="Sort" class="{{index==activeMenuType?'list-left-menu-box-selected':'list-left-menu-box-unselect'}}" data-index="{{index}}"  bindtap='select_type'>
+    <view wx:for="{{MenuType}}" wx:key="Sort" class="{{index==activeMenuType?'list-left-menu-box-selected':'list-left-menu-box-unselect'}}" data-index="{{index}}" bindtap='select_type'>
       <view class="list-menu-name">{{item.pk}}</view>
     </view>
   </view>
 </view>
-<scroll-view scroll-y='true' class='menu_list'>
-  <view class='content_list' wx:for="{{Menus}}" wx:key="Sort">
-    <view class='content_img'>
-      <image mode='widthFix' lazy-load='true' src='https://www.qqmxd.com/static/{{item.fields.Img}}'></image>
+<view class='link_target'></view>
+<scroll-view scroll-y='true' scroll-into-view='{{now_type}}' class='menu_list'>
+  <view wx:for="{{MenuType}}" wx:key="Sort" wx:for-item="i" wx:for-index='j'>
+    <view class='content_type' id='list{{j}}' index='{{j}}'>{{i.pk}}</view>
+    <view  class='content_list'  wx:for="{{Menus}}" wx:key="Sort" wx:if="{{item.fields.Type==i.pk}}">
+      <view class='content_img'>
+        <image mode='widthFix' lazy-load='true' src='https://www.qqmxd.com/static/{{item.fields.Img}}'></image>
+      </view>
+      <view class='content_name'>
+        <view style='font-size:32rpx'>{{item.pk}}</view>
+        <view style='color:red;font-size:30rpx'>¥ {{item.fields.Price}}</view>
+      </view>
+      <view class='iconfont icon-jiahao'></view>
     </view>
-    <view class='content_name'>
-      <view style='font-size:32rpx'>{{item.pk}}</view>
-      <view style='color:red;font-size:30rpx'>¥ {{item.fields.Price}}</view>
-    </view>
-  <view class='iconfont icon-jiahao'></view>
   </view>
   <view class='content_list_blank'></view>
 </scroll-view>

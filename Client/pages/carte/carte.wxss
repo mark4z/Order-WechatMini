@@ -41,11 +41,10 @@
   background: white;
 }
 
-.list-tab {
-  font-size: 25rpx;
-  background: #f3f4f6;
-  color: #cbcccf;
-  padding: 2px;
+.content_type {
+  font-size: 26rpx;
+  font-weight: 100;
+  margin: 4%;
 }
 
 .list-menu-name {
@@ -103,7 +102,7 @@
 }
 
 .content_list {
-  height: 12%;
+  height: 160rpx;
   display: flex;
   border-bottom: 1px solid rgba(201, 200, 200, 0.315);
   flex-direction: row;
@@ -121,7 +120,6 @@
   margin-left: 4%;
   margin-right: 4%;
 }
-
 .content_img>image {
   width: 100%;
   border-radius: 10rpx;
@@ -144,4 +142,13 @@
   display: flex;
   align-content: flex-end;
   align-items: flex-end;
+}
+.link_target{
+  position: absolute;
+  top: 205rpx;
+  right: 0rpx;
+  width: 1000rpx;
+  height: 20rpx;
+  background-color: #ffffff;
+  z-index: -1;
 }

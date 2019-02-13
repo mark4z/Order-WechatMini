@@ -1,3 +1,5 @@
+import json
+
 from django.http import HttpResponse
 from django.core import serializers
 from Cart import redis
@@ -5,14 +7,26 @@ from Cart import redis
 # Create your views here.
 from Data.models import Menu, MenuType, Order, Desk, User, OrderDetail
 
-
 def get_menu_type(request):
-    data=MenuType.objects.prefetch_related('menu_set').all()
-    result=''
+    data=MenuType.objects.prefetch_related('Menus').order_by("Sort").all()
+    result = []
     for i in data:
-        str='{"name":"'+i.Name+'","fields":'+serializers.serialize('json', i.menu_set.all())+"}"
-        result+=()
-    return HttpResponse("["+result+"]")
+        menus=[]
+        for j in i.Menus.all():
+            menu={
+                'Name':j.Name,
+                'Price':float(j.Price),
+                'Img':str(j.Img)
+            }
+            menus.append(menu)
+        data = {
+            'Name': i.Name,
+            # 'Menus': serializers.serialize('json',i.Menus.all())
+            'Menus':menus
+        }
+        result.append(data)
+    # return HttpResponse(serializers.serialize('json',result))
+    return HttpResponse(json.dumps(result))
 
 
 def get_menu(request):

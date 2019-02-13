@@ -2,21 +2,21 @@
 <view class='left-menu'>
   <view class="list-left-menu">
     <view wx:for="{{MenuType}}" wx:key="Sort" class="{{index==activeMenuType?'list-left-menu-box-selected':'list-left-menu-box-unselect'}}" data-index="{{index}}" bindtap='select_type'>
-      <view class="list-menu-name">{{item.pk}}</view>
+      <view class="list-menu-name">{{item.Name}}</view>
     </view>
   </view>
 </view>
 <view class='link_target'></view>
 <scroll-view scroll-y='true' scroll-into-view='{{now_type}}' class='menu_list'>
   <view wx:for="{{MenuType}}" wx:key="Sort" wx:for-item="i" wx:for-index='j'>
-    <view class='content_type' id='list{{j}}' index='{{j}}'>{{i.pk}}</view>
-    <view  class='content_list'  wx:for="{{Menus}}" wx:key="Sort" wx:if="{{item.fields.Type==i.pk}}">
+    <view class='content_type' id='list{{j}}' index='{{j}}'>{{i.Name}}</view>
+    <view  class='content_list'  wx:for="{{i.Menus}}" wx:key="Sort" wx:for-item="items">
       <view class='content_img'>
-        <image mode='widthFix' lazy-load='true' src='https://www.qqmxd.com/static/{{item.fields.Img}}'></image>
+        <image mode='widthFix' lazy-load='true' src='http://127.0.0.1:8000/Static/{{items.Img}}'></image>
       </view>
       <view class='content_name'>
-        <view style='font-size:32rpx'>{{item.pk}}</view>
-        <view style='color:red;font-size:30rpx'>¥ {{item.fields.Price}}</view>
+        <view style='font-size:32rpx'>{{items.Name}}</view>
+        <view style='color:red;font-size:30rpx'>¥ {{items.Price}}</view>
       </view>
       <view class='iconfont icon-jiahao'></view>
     </view>

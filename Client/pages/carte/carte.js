@@ -1,5 +1,6 @@
 // pages/carte/carte.js
-var static_url = "https://www.qqmxd.com/"
+// var static_url = "https://www.qqmxd.com/"
+var static_url = "http://127.0.0.1:8000/"
 Page({
 
   /**
@@ -19,33 +20,24 @@ Page({
   onLoad: function (options) {
     var that = this
     wx.request({
-      url: static_url + 'mydata/MenuType',
+      url: static_url + 'Data/MenuType/',
       header: {
         'content-type': 'application/json' // 默认值
       },
       success(res) {
+        console.log(res.data)
         that.setData({
           MenuType: res.data
         })
-      }
-    })
-    wx.request({
-      url: static_url + 'mydata/Menu',
-      header: {
-        'content-type': 'application/json' // 默认值
-      },
-      success(res) {
-        that.setData({
-          Menus: res.data
-        })
-        that._observer = wx.createIntersectionObserver(that, {observeAll:true})
+        that._observer = wx.createIntersectionObserver(that, { observeAll: true })
         that._observer
           .relativeTo('.link_target')
           .observe('.content_type', (res) => {
-            if (that.activeMenuType != (res.id.split('list')[1])){
-            that.setData({
-              activeMenuType:res.id.split('list')[1],
-            })}
+            if (that.activeMenuType != (res.id.split('list')[1])) {
+              that.setData({
+                activeMenuType: res.id.split('list')[1],
+              })
+            }
           })
       }
     })

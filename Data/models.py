@@ -3,6 +3,8 @@ from django.db.models import Sum
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 from django.utils.html import format_html
+from django.core import serializers
+
 
 
 class MenuType(models.Model):
@@ -18,7 +20,7 @@ class MenuType(models.Model):
 
 class Menu(models.Model):
     Name = models.CharField('菜名', max_length=50, primary_key=True)
-    Type = models.ForeignKey(MenuType, null=True, on_delete=models.CASCADE, verbose_name='菜品分类')
+    Type = models.ForeignKey(MenuType, null=True, on_delete=models.CASCADE, verbose_name='菜品分类',related_name = 'Menus')
     Price = models.DecimalField('价格', max_digits=5, decimal_places=2)
     Img = models.ImageField('照片', upload_to='img')
     Introduction = models.CharField('简介', max_length=50)

@@ -21,5 +21,24 @@ page{
   margin-top: 2%;
   background-color: #FFFFFF;
 }
+@font-face {
+  font-family: 'iconfont';  /* project id 1040812 */
+  src: url('//at.alicdn.com/t/font_1040812_2o45pipl3uy.eot');
+  src: url('//at.alicdn.com/t/font_1040812_2o45pipl3uy.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1040812_2o45pipl3uy.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1040812_2o45pipl3uy.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1040812_2o45pipl3uy.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1040812_2o45pipl3uy.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 20px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
+.icon-jiahao:before {
+  content: "\e616";
+}
 

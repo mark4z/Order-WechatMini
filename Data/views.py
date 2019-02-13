@@ -7,7 +7,12 @@ from Data.models import Menu, MenuType, Order, Desk, User, OrderDetail
 
 
 def get_menu_type(request):
-    return HttpResponse(serializers.serialize('json', MenuType.objects.all()))
+    data=MenuType.objects.prefetch_related('menu_set').all()
+    result=''
+    for i in data:
+        str='{"name":"'+i.Name+'","fields":'+serializers.serialize('json', i.menu_set.all())+"}"
+        result+=()
+    return HttpResponse("["+result+"]")
 
 
 def get_menu(request):

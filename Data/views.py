@@ -7,25 +7,24 @@ from Cart import redis
 # Create your views here.
 from Data.models import Menu, MenuType, Order, Desk, User, OrderDetail
 
+
 def get_menu_type(request):
-    data=MenuType.objects.prefetch_related('Menus').order_by("Sort").all()
+    data = MenuType.objects.prefetch_related('Menus').order_by("Sort").all()
     result = []
     for i in data:
-        menus=[]
+        menus = []
         for j in i.Menus.all():
-            menu={
-                'Name':j.Name,
-                'Price':float(j.Price),
-                'Img':str(j.Img)
+            menu = {
+                'Name': j.Name,
+                'Price': float(j.Price),
+                'Img': str(j.Img)
             }
             menus.append(menu)
         data = {
             'Name': i.Name,
-            # 'Menus': serializers.serialize('json',i.Menus.all())
-            'Menus':menus
+            'Menus': menus
         }
         result.append(data)
-    # return HttpResponse(serializers.serialize('json',result))
     return HttpResponse(json.dumps(result))
 
 

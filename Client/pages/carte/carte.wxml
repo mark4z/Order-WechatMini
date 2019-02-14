@@ -10,7 +10,7 @@
 <scroll-view scroll-y='true' scroll-into-view='{{now_type}}' class='menu_list'>
   <view wx:for="{{MenuType}}" wx:key="Sort" wx:for-item="i" wx:for-index='j'>
     <view class='content_type' id='list{{j}}' index='{{j}}'>{{i.Name}}</view>
-    <view  class='content_list'  wx:for="{{i.Menus}}" wx:key="Sort" wx:for-item="items">
+    <view class='content_list' wx:for="{{i.Menus}}" wx:key="Sort" wx:for-item="items">
       <view class='content_img'>
         <image mode='widthFix' lazy-load='true' src='http://127.0.0.1:8000/Static/{{items.Img}}'></image>
       </view>
@@ -29,3 +29,12 @@
     <text>去结算</text>
   </button>
 </view>
+<view class='cover' wx:if="{{cart_switch}}"></view>
+<scroll-view class='cart_detail' wx:if="{{cart_switch}}">
+  <view class='selected'>
+    <view>已选商品</view>
+    <view>清空</view>
+  </view>
+  <view class='selected_detail'></view>
+  <view class='selected_blank'></view>
+</scroll-view>

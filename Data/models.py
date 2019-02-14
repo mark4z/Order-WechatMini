@@ -6,7 +6,6 @@ from django.utils.html import format_html
 from django.core import serializers
 
 
-
 class MenuType(models.Model):
     Name = models.CharField('菜品分类', max_length=50, primary_key=True)
     Sort = models.DecimalField('排序', max_digits=20, decimal_places=0, default=0)
@@ -20,7 +19,7 @@ class MenuType(models.Model):
 
 class Menu(models.Model):
     Name = models.CharField('菜名', max_length=50, primary_key=True)
-    Type = models.ForeignKey(MenuType, null=True, on_delete=models.CASCADE, verbose_name='菜品分类',related_name = 'Menus')
+    Type = models.ForeignKey(MenuType, null=True, on_delete=models.CASCADE, verbose_name='菜品分类', related_name='Menus')
     Price = models.DecimalField('价格', max_digits=5, decimal_places=2)
     Img = models.ImageField('照片', upload_to='img')
     Introduction = models.CharField('简介', max_length=50)

@@ -191,3 +191,12 @@
   display: flex;
   background-color: #eee;
 }
+
+.selected_item {
+  height: 78rpx;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+}

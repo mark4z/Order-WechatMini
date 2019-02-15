@@ -12,7 +12,7 @@ Page({
     'Menus': [],
     'cart': [],
     'activeMenuType': 0,
-    'cart_switch': 1,
+    'cart_switch': 0,
   },
 
   /**
@@ -53,7 +53,24 @@ Page({
   /**
    * 生命周期函数--监听页面显示
    */
-  onShow: function() {},
+  onShow: function() {
+    wx.connectSocket({
+      url: 'ws://127.0.0.1:8000/ws/Cart/1/',
+    })
+    wx.onSocketOpen(
+      function(res){
+        console.log('WebSocket连接已打开！')
+      }
+    )
+    wx.onSocketClose(
+      function (res) {
+        console.log('WebSocket连接已关闭！')
+      }
+    )
+    wx.onSocketMessage(function (res) {
+      console.log('收到服务器内容：' + JSON.parse(res.data)[0])
+    })
+  },
 
   /**
    * 生命周期函数--监听页面隐藏
@@ -92,4 +109,13 @@ Page({
       now_type: 'list' + index,
     })
   },
+  Cart: function() {
+    var i = 0
+    if (this.data.cart_switch == 0) {
+      i = 1
+    }
+    this.setData({
+      cart_switch: i
+    })
+  }
 })

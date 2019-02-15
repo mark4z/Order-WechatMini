@@ -136,13 +136,14 @@
   justify-content: space-around;
 }
 
-.icon-jiahao {
+.icon-item {
   margin: 4%;
   width: 10%;
   height: 80%;
   display: flex;
   align-content: flex-end;
   align-items: flex-end;
+  color: #008de1;
 }
 
 .link_target {
@@ -187,7 +188,7 @@
 
 .selected_blank {
   width: 100%;
-  height: 240rpx;
+  height: 200rpx;
   display: flex;
   background-color: #eee;
 }
@@ -199,4 +200,28 @@
   align-content: center;
   align-items: center;
   justify-content: space-between;
+}
+
+.selected_plus {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  right: 20rpx;
+}
+
+.icon-cart {
+  width: 40rpx;
+  height: 40rpx;
+  color: #008de1;
+}
+
+.list_name {
+  width: 40%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

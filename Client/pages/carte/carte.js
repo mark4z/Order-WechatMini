@@ -13,6 +13,7 @@ Page({
     'cart': [],
     'activeMenuType': 0,
     'cart_switch': 0,
+    'cart_list': []
   },
 
   /**
@@ -58,17 +59,21 @@ Page({
       url: 'ws://127.0.0.1:8000/ws/Cart/1/',
     })
     wx.onSocketOpen(
-      function(res){
+      function(res) {
         console.log('WebSocket连接已打开！')
       }
     )
     wx.onSocketClose(
-      function (res) {
+      function(res) {
         console.log('WebSocket连接已关闭！')
       }
     )
-    wx.onSocketMessage(function (res) {
-      console.log('收到服务器内容：' + JSON.parse(res.data)[0])
+    var that=this
+    wx.onSocketMessage(function(res) {
+      var list = JSON.parse(JSON.parse(res.data).message)
+      that.setData({
+        cart_list:list
+      })
     })
   },
 

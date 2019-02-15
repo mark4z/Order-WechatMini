@@ -38,7 +38,7 @@ page{
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-jiahao:before {
+.icon-plus:before {
   content: "\e616";
 }
 

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3a4ca5e-d986-4168-9748-eebf54e76806" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Client/pages/carte/carte.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/carte/carte.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/pages/carte/carte.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/carte/carte.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/pages/carte/carte.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/carte/carte.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +33,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -101,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="3" />
     <option name="y" value="27" />
     <option name="width" value="1346" />
@@ -300,7 +298,8 @@
       <workItem from="1550122839881" duration="366000" />
       <workItem from="1550125701575" duration="425000" />
       <workItem from="1550126186068" duration="3880000" />
-      <workItem from="1550209083015" duration="2309000" />
+      <workItem from="1550209083015" duration="2405000" />
+      <workItem from="1550214527364" duration="30000" />
     </task>
     <servers />
   </component>
@@ -337,7 +336,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106938000" />
+    <option name="totallyTimeSpent" value="107064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,12 +350,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18683812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24193548" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24193548" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36451614" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

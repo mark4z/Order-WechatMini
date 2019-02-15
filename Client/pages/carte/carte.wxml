@@ -18,7 +18,7 @@
         <view style='font-size:32rpx'>{{items.Name}}</view>
         <view style='color:red;font-size:30rpx'>¥ {{items.Price}}</view>
       </view>
-      <view class='iconfont icon-jiahao'></view>
+      <view class='iconfont icon-plus icon-item'></view>
     </view>
   </view>
   <view class='content_list_blank'></view>
@@ -32,12 +32,17 @@
 <view class='cover' wx:if="{{cart_switch}}"></view>
 <scroll-view class='cart_detail' wx:if="{{cart_switch}}">
   <view class='selected'>
-    <view>已选商品</view>
-    <view>清空</view>
+    <view class>已选商品</view>
+    <view class>清空</view>
   </view>
-  <view class='selected_detail'></view>
-  <view class='selected_item'>
-    <view></view>
+  <view class='selected_item' wx:for="{{cart_list}}" wx:key="">
+    <view class='list_name'>{{item.name}}</view>
+    <view class='list_price' style='color:red;font-size:30rpx'>¥ {{item.price}}</view>
+    <view class='.selected_plus'>
+      <view class='iconfont icon-plus icon-cart'></view>
+      <view>{{item.num}}</view>
+      <view class='iconfont icon-plus icon-cart'></view>
+    </view>
   </view>
   <view class='selected_blank'></view>
 </scroll-view>

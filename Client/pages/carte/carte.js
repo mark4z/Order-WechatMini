@@ -1,19 +1,22 @@
 // pages/carte/carte.js
 // var static_url = "https://www.qqmxd.com/"
-var static_url = "http://127.0.0.1:8000/"
+var static_url = "http://192.168.199.200:8000/"
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    'static_url': "192.168.199.200:8000",
     'MenuType': [],
     'now_type': '',
     'Menus': [],
     'cart': [],
     'activeMenuType': 0,
     'cart_switch': 0,
-    'cart_list': []
+    'cart_list': [],
+    'list_price': 0,
+    'list_num': 0,
   },
 
   /**
@@ -49,14 +52,15 @@ Page({
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function() {},
+  onReady: function() {
+  },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function() {
     wx.connectSocket({
-      url: 'ws://127.0.0.1:8000/ws/Cart/1/',
+      url: 'ws://' + this.data.static_url + '/ws/Cart/1/',
     })
     wx.onSocketOpen(
       function(res) {
@@ -68,11 +72,21 @@ Page({
         console.log('WebSocket连接已关闭！')
       }
     )
-    var that=this
+    var that = this
     wx.onSocketMessage(function(res) {
       var list = JSON.parse(JSON.parse(res.data).message)
       that.setData({
-        cart_list:list
+        cart_list: list
+      })
+      var num = 0
+      var price = 0
+      for (var j = 0, len = list.length; j < len; j++) {
+        num += list[j].num
+        price += list[j].price
+      }
+      that.setData({
+        list_num: num,
+        list_price: price
       })
     })
   },
@@ -115,12 +129,38 @@ Page({
     })
   },
   Cart: function() {
-    var i = 0
-    if (this.data.cart_switch == 0) {
-      i = 1
+    if (this.data.cart_list.length > 0) {
+      this.setData({
+        cart_switch: !this.data.cart_switch,
+      })
+    } else {
+      this.setData({
+        cart_switch: 0
+      })
     }
-    this.setData({
-      cart_switch: i
+  },
+  plus: function(event) {
+    var that = this
+    var name = event.currentTarget.dataset.name
+    var action = event.currentTarget.dataset.action
+    wx.sendSocketMessage({
+      data: JSON.stringify({
+        'message': JSON.stringify({
+          "action": action,
+          "detail": {
+            "name": name,
+            "num": 1,
+            "desk": 1
+          }
+        })
+      })
     })
+    if (action == "*")
+      this.setData({
+        cart_switch: 0
+      })
+  },
+  Order:function(){
+    console.log("pay")
   }
 })

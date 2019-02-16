@@ -53,7 +53,7 @@
 }
 
 .Cart {
-  z-index: 10;
+  z-index: 16;
   top: 88%;
   margin-left: 2.5%;
   height: 6%;
@@ -68,16 +68,39 @@
   border-radius: 50rpx;
 }
 
+.Cart>image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 20rpx;
+}
+
+.Cart_num {
+  width: 40rpx;
+  height: 40rpx;
+  border: 1rpx;
+  border-radius: 40rpx;
+  color: white;
+  position: relative;
+  text-align: center;
+  left: -18rpx;
+  top: -22rpx;
+  z-index: 20;
+  background-color: red;
+}
+
 .Cart>text {
   margin-left: 10%;
   color: white;
 }
 
-.Cart>button {
+.cart_pay {
+  z-index: 16;
+  top: 88%;
+  position: fixed;
+  right: 2.5%;
   background-color: #51d862;
-  margin-right: 0%;
   width: 186rpx;
-  height: 100%;
+  height: 6%;
   border: 1rpx;
   border-color: white;
   border-top-right-radius: 50rpx;
@@ -116,7 +139,7 @@
 }
 
 .content_img {
-  width: 30%;
+  width: 40%;
   margin-left: 4%;
   margin-right: 4%;
 }
@@ -138,12 +161,16 @@
 
 .icon-item {
   margin: 4%;
-  width: 10%;
+  width: 20%;
   height: 80%;
   display: flex;
   align-content: flex-end;
   align-items: flex-end;
   color: #008de1;
+}
+
+.icon-item_tap {
+  color: #676e72;
 }
 
 .link_target {
@@ -175,9 +202,13 @@
   background-color: white;
 }
 
+.cart_detail_list {
+  height: 480rpx;
+}
+
 .selected {
   width: 100%;
-  height: 10%;
+  height: 16%;
   background-color: #eee;
   display: flex;
   flex-direction: row;
@@ -188,18 +219,19 @@
 
 .selected_blank {
   width: 100%;
-  height: 200rpx;
+  height: 180rpx;
   display: flex;
   background-color: #eee;
 }
 
 .selected_item {
-  height: 78rpx;
+  height: 86rpx;
   display: flex;
   flex-direction: row;
   align-content: center;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #e3e3e3;
 }
 
 .selected_plus {
@@ -214,8 +246,6 @@
 }
 
 .icon-cart {
-  width: 40rpx;
-  height: 40rpx;
   color: #008de1;
 }
 
@@ -224,4 +254,15 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-size: 36rpx;
+}
+
+.move_left {
+  position: relative;
+  left: 20rpx;
+}
+
+.move_right {
+  position: relative;
+  right: 20rpx;
 }

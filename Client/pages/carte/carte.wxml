@@ -1,4 +1,5 @@
-<view class='welcome'></view>
+<view class='welcome'>
+</view>
 <view class='left-menu'>
   <view class="list-left-menu">
     <view wx:for="{{MenuType}}" wx:key="Sort" class="{{index==activeMenuType?'list-left-menu-box-selected':'list-left-menu-box-unselect'}}" data-index="{{index}}" bindtap='select_type'>
@@ -12,37 +13,48 @@
     <view class='content_type' id='list{{j}}' index='{{j}}'>{{i.Name}}</view>
     <view class='content_list' wx:for="{{i.Menus}}" wx:key="Sort" wx:for-item="items">
       <view class='content_img'>
-        <image mode='widthFix' lazy-load='true' src='http://127.0.0.1:8000/Static/{{items.Img}}'></image>
+        <image mode='widthFix' lazy-load='true' src='http://{{static_url}}/Static/{{items.Img}}'></image>
       </view>
       <view class='content_name'>
-        <view style='font-size:32rpx'>{{items.Name}}</view>
-        <view style='color:red;font-size:30rpx'>¥ {{items.Price}}</view>
+        <view style='font-size:34rpx'>{{items.Name}}</view>
+        <view style='color:red;font-size:32rpx'>¥ {{items.Price}}</view>
       </view>
-      <view class='iconfont icon-plus icon-item'></view>
+      <view class='iconfont icon-plus icon-item' hover-class="icon-item_tap" data-name='{{items.Name}}' data-action='+' bindtap='plus'>
+      </view>
     </view>
   </view>
   <view class='content_list_blank'></view>
 </scroll-view>
-<view class='Cart' bindtap='Cart'>
-  <text>10.00</text>
-  <button>
+<view>
+  <view class='Cart' bindtap='Cart'>
+    <image src='../../images/cart.png'></image>
+    <view class='Cart_num'>{{list_num}}</view>
+    <text wx:if="{{list_price}}" style='color:white;font-size:36rpx'>￥ {{list_price}}</text>
+    <view style='position: absolute;right: 46rpx;color: gray;'>请点餐</view>
+  </view>
+  <button class='cart_pay' wx:if="{{list_price}}" hover-class="icon-item_tap" bindtap='Order'>
     <text>去结算</text>
   </button>
 </view>
-<view class='cover' wx:if="{{cart_switch}}"></view>
-<scroll-view class='cart_detail' wx:if="{{cart_switch}}">
-  <view class='selected'>
-    <view class>已选商品</view>
-    <view class>清空</view>
-  </view>
-  <view class='selected_item' wx:for="{{cart_list}}" wx:key="">
-    <view class='list_name'>{{item.name}}</view>
-    <view class='list_price' style='color:red;font-size:30rpx'>¥ {{item.price}}</view>
-    <view class='.selected_plus'>
-      <view class='iconfont icon-plus icon-cart'></view>
-      <view>{{item.num}}</view>
-      <view class='iconfont icon-plus icon-cart'></view>
+<view class='cover' wx:if="{{cart_switch}}" bindtap='Cart'></view>
+<view class='cart_detail' animation="{{animation}}" wx:if="{{cart_switch}}">
+  <view class='selected' style='font-size:36rpx'>
+    <view class="move_left">已选商品</view>
+    <view class="move_right" data-name='{{item.Name}}' data-action='*' bindtap='plus'>
+      <icon class="iconfont icon-clean"></icon>
+      清空
     </view>
   </view>
+  <scroll-view scroll-y='true' class="{{cart_list.length>5?'cart_detail_list':''}}">
+    <view class='selected_item' wx:for="{{cart_list}}" wx:key="">
+      <view class='list_name move_left'>{{item.name}}</view>
+      <view class='list_price' style='color:red;font-size:30rpx'>¥ {{item.price}}</view>
+      <view class='.selected_plus'>
+        <view class='iconfont icon-minus icon-cart' hover-class="icon-item_tap" data-name='{{item.name}}' data-action='-' bindtap='plus'></view>
+        <view>{{item.num}}</view>
+        <view class='iconfont icon-plus icon-cart' hover-class="icon-item_tap" data-name='{{item.name}}' data-action='+' bindtap='plus'></view>
+      </view>
+    </view>
+  </scroll-view>
   <view class='selected_blank'></view>
-</scroll-view>
+</view>

@@ -48,7 +48,7 @@
   <scroll-view scroll-y='true' class="{{cart_list.length>5?'cart_detail_list':''}}">
     <view class='selected_item' wx:for="{{cart_list}}" wx:key="">
       <view class='list_name move_left'>{{item.name}}</view>
-      <view class='list_price' style='color:red;font-size:30rpx'>¥ {{item.price}}</view>
+      <view class='list_price' style='color:red;font-size:30rpx;'>¥ {{item.price}}</view>
       <view class='.selected_plus'>
         <view class='iconfont icon-minus icon-cart' hover-class="icon-item_tap" data-name='{{item.name}}' data-action='-' bindtap='plus'></view>
         <view>{{item.num}}</view>

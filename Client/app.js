@@ -3,7 +3,8 @@ App({
   onLaunch: function() {
   },
   globalData: {
-    url: "http://127.0.0.1:8000",
+    url: "http://192.168.199.200:8000",
+    ip:"192.168.199.200:8000",
     userInfo: null,
     openid: null,
   }

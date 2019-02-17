@@ -1,0 +1,16 @@
+/* pages/confirm/confirm.wxss */
+
+.welcome {
+  width: 100%;
+  height: 80rpx;
+  background: linear-gradient(to right,#008ee19c,#008de1);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.h3 {
+  font-size: 48rpx;
+}

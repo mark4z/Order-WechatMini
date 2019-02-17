@@ -1,4 +1,5 @@
 import json
+import time
 
 from django.http import HttpResponse
 from django.core import serializers
@@ -28,8 +29,13 @@ def get_menu_type(request):
     return HttpResponse(json.dumps(result))
 
 
-def get_menu(request):
-    return HttpResponse(serializers.serialize('json', Menu.objects.all()))
+def get_cache(request, desk):
+    cache_list = redis.get_cache(desk)
+    for i in cache_list:
+        i['img'] = str(Menu.objects.get(Name=i['name']).Img)
+    order_id = int(round(time.time() * 1000))
+    result = {"id": order_id, "detail": cache_list}
+    return HttpResponse(json.dumps(result))
 
 
 def get_order(request, order_id):

@@ -1,13 +1,13 @@
 // pages/carte/carte.js
-// var static_url = "https://www.qqmxd.com/"
-var static_url = "http://192.168.199.200:8000/"
+const app = getApp()
+var static_url = app.globalData.url
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    'static_url': "192.168.199.200:8000",
+    'static_url': app.globalData.ip,
     'MenuType': [],
     'now_type': '',
     'Menus': [],
@@ -25,7 +25,7 @@ Page({
   onLoad: function(options) {
     var that = this
     wx.request({
-      url: static_url + 'Data/MenuType/',
+      url: static_url + '/Data/MenuType/',
       header: {
         'content-type': 'application/json' // 默认值
       },
@@ -161,6 +161,8 @@ Page({
       })
   },
   Order:function(){
-    console.log("pay")
+    wx.navigateTo({
+      url: '/pages/confirm/confirm'
+    })
   }
 })

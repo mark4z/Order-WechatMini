@@ -1,7 +1,7 @@
 //index.js
-var static_url= "https://www.qqmxd.com/Static"
 //获取应用实例
 const app = getApp()
+var static_url = app.globalData.url+"/Static"
 Page({
   data: {
     img_urls: [

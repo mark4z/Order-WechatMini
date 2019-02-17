@@ -203,7 +203,7 @@
 }
 
 .cart_detail_list {
-  height: 480rpx;
+  height: 500rpx;
 }
 
 .selected {
@@ -225,7 +225,7 @@
 }
 
 .selected_item {
-  height: 86rpx;
+  height: 102rpx;
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -250,7 +250,7 @@
 }
 
 .list_name {
-  width: 40%;
+  width: 45%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;

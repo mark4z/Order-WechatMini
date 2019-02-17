@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/login/login",
-    "pages/carte/carte"
+    "pages/carte/carte",
+    "pages/confirm/confirm"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,7 +17,7 @@
     "borderStyle": "black",
     "list": [
       {
-        "selectedIconPath":"images/ic_menu_choice_pressed.png",
+        "selectedIconPath": "images/ic_menu_choice_pressed.png",
         "iconPath": "images/ic_menu_choice_nor.png",
         "pagePath": "pages/index/index",
         "text": "首页"

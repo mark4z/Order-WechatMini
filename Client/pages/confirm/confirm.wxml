@@ -1,6 +1,15 @@
-<view class='welcome'>
-  <view class='h3'>请确认您的菜单</view>
-</view>
-<view class='.div'>
-  123456
+<view class='page'>
+  <view class='welcome'>
+    <view class='h3'>请确认您的菜单</view>
+  </view>
+  <view class='list'>
+    <view class='list_head'>
+      <text>订单： {{cache_list.id}}</text>
+    </view>
+    <block wx:for="{{cache_list.detail}}" wx:key="name" wx:for-item="i">
+      <view class='list_detail'>
+        {{i.name}}X{{i.num}}
+      </view>
+    </block>
+  </view>
 </view>

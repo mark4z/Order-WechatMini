@@ -3,16 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d3a4ca5e-d986-4168-9748-eebf54e76806" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/pages/carte/carte.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/carte/carte.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/pages/carte/carte.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/carte/carte.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/pages/carte/carte.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/carte/carte.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/index/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/project.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/pages/confirm/confirm.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/confirm/confirm.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/pages/confirm/confirm.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/confirm/confirm.wxss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,12 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Data/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-              <folding>
-                <element signature="e#241#726#0" />
-                <element signature="e#983#1597#0" />
-              </folding>
+            <state relative-caret-position="76">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -60,7 +48,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cart/redis.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="724">
+            <state relative-caret-position="874">
               <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="32" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
@@ -347,6 +335,8 @@
       <workItem from="1550308139993" duration="132000" />
       <workItem from="1550324017302" duration="713000" />
       <workItem from="1550386925887" duration="3493000" />
+      <workItem from="1550574019248" duration="102000" />
+      <workItem from="1550574166824" duration="586000" />
     </task>
     <servers />
   </component>
@@ -383,7 +373,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118215000" />
+    <option name="totallyTimeSpent" value="118903000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,12 +388,12 @@
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19894099" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20499243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30645162" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30645162" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36451614" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -784,23 +774,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cart/redis.py">
+    <entry file="file://$PROJECT_DIR$/Data/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/views.py">
+    <entry file="file://$PROJECT_DIR$/Cart/redis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        <state relative-caret-position="874">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="32" />
           <folding>
-            <element signature="e#241#726#0" />
-            <element signature="e#983#1597#0" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,9 +1,13 @@
 /* pages/confirm/confirm.wxss */
 
+.page {
+  height: 600rpx;
+  background: linear-gradient(#008de1, #eee);
+}
+
 .welcome {
   width: 100%;
   height: 80rpx;
-  background: linear-gradient(to right,#008ee19c,#008de1);
   color: white;
   display: flex;
   flex-direction: column;
@@ -13,4 +17,26 @@
 
 .h3 {
   font-size: 48rpx;
+}
+
+.list {
+  margin: 2%;
+}
+
+.list_head {
+  padding: 20rpx;
+  height: 46rpx;
+  background-color: white;
+  border-bottom: 1px solid #e3e3e3;
+  font-size: 36rpx;
+}
+
+.list_detail {
+  padding: 20rpx;
+  height: 60rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
 }

@@ -7,7 +7,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    'cache_list':[],
+    'cache_list':null,
   },
 
   /**
@@ -24,6 +24,7 @@ Page({
         that.setData({
           cache_list:res.data
         })
+        console.log(res.data.detail)
       }
     })
   },

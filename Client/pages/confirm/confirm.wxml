@@ -8,7 +8,12 @@
     </view>
     <block wx:for="{{cache_list.detail}}" wx:key="name" wx:for-item="i">
       <view class='list_detail'>
-        {{i.name}}X{{i.num}}
+        <view class='detail_img'>
+          <image mode='widthFix' lazy-load='true' src='http://{{static_url}}/Static/{{i.img}}'></image>
+        </view>
+        <view class='detail_name'>{{i.name}}</view>
+        <view class='detail_num'>x{{i.num}}</view>
+        <view style='font-size:32rpx'>￥{{i.price}}</view>
       </view>
     </block>
   </view>

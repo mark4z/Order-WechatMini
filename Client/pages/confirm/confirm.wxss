@@ -33,10 +33,27 @@
 
 .list_detail {
   padding: 20rpx;
-  height: 60rpx;
+  height: 80rpx;
   background-color: white;
   display: flex;
   flex-direction: row;
   align-content: center;
   align-items: center;
+  justify-content: space-between;
+  font-size: 32rpx;
+}
+.detail_img{
+  width: 20%;
+}
+.detail_img>image {
+  width: 60%;
+  border-radius: 10rpx;
+}
+.detail_num{
+  position: absolute;
+  right: 200rpx;
+}
+.detail_name{
+  position: absolute;
+  left: 150rpx;
 }

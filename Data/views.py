@@ -42,19 +42,26 @@ def get_order(request, order_id):
     return HttpResponse(serializers.serialize('json', Order.objects.filter(pk=order_id)))
 
 
-def set_order(request):
+def set_order(request, order_id):
     # 获取参数
-    order_id = request.POST['id']
-    user = User.objects.get(OpenId=request.POST.get('open_id'))
-    desk = Desk.objects.get(DeskMum=request.POST.get('desk'))
+    user = User.objects.get(OpenId = request.POST['open_id'])
+    desk = Desk.objects.get(DeskMum=request.POST['desk'])
     comments = request.POST['comments']
     Order.objects.create(OrderId=order_id, User=user, Desk=desk, Comments=comments)
     # save cache in redis
-    order = Order.objects.get(order_id=order_id)
+    order = Order.objects.get(OrderId=order_id)
     total = 0
     for i in redis.get_cache(desk):
-        menu = Menu.objects.get(i['name'])
+        menu = Menu.objects.get(Name=i['name'])
         OrderDetail.objects.create(menu=menu, order=order, Number=i['num'])
         total += menu.Price * i['num']
     order.Total = total
     order.save()
+    return HttpResponse("Access")
+
+
+def get_or_creat_order(request, order_id):
+    if request.method == 'GET':
+        return get_order(request, order_id)
+    elif request.method == 'POST':
+        return set_order(request, order_id)

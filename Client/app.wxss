@@ -21,7 +21,9 @@ page{
   margin-top: 2%;
   background-color: #FFFFFF;
 }
-
+.icon-item_tap {
+  color: #676e72;
+}
 @font-face {font-family: "iconfont";
   src: url('//at.alicdn.com/t/font_1040812_k4u1x0gn1ef.eot?t=1550297747522'); /* IE9 */
   src: url('//at.alicdn.com/t/font_1040812_k4u1x0gn1ef.eot?t=1550297747522#iefix') format('embedded-opentype'), /* IE6-IE8 */

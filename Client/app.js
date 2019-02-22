@@ -3,9 +3,10 @@ App({
   onLaunch: function() {
   },
   globalData: {
-    url: "http://192.168.199.200:8000",
-    ip:"192.168.199.200:8000",
+    url: "http://10.129.104.168:8000",
+    ip:"10.129.104.168:8000",
     userInfo: null,
-    openid: null,
+    open_id: "guest",
+    desk:1,
   }
 })

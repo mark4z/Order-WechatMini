@@ -74,10 +74,10 @@ class Order(models.Model):
     Desk = models.ForeignKey(Desk, null=False, on_delete=models.DO_NOTHING, verbose_name='桌号')
     Time = models.DateTimeField(auto_now_add=True, verbose_name='时间')
     Total = models.DecimalField('总金额', max_digits=10, decimal_places=2, default=0)
-    Off = models.CharField(max_length=6, choices=Off, verbose_name='折扣', default=1.0)
+    Off = models.CharField(max_length=6, choices=Off, verbose_name='折扣', default='1')
     PayTotal = models.DecimalField('实付金额', max_digits=10, decimal_places=2, default=0)
     OrderState = models.CharField(max_length=6, choices=State_CHOICES, verbose_name='付款状态', default='未付款')
-    CookState = models.CharField(max_length=6, choices=Cook_CHOICES, verbose_name='后厨状态', default='未做')
+    CookState = models.CharField(max_length=6, choices=Cook_CHOICES, verbose_name='后厨状态', default='0')
     Comments = models.CharField(max_length=200, verbose_name='备注', default='无')
     Menus = models.ManyToManyField(Menu, through='OrderDetail')
 

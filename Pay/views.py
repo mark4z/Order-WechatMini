@@ -19,4 +19,4 @@ def login(request):
     session_key = data.get('session_key')
     username = request.GET.get("nickName")
     User.objects.update_or_create(defaults={'Name': username, 'Session': session_key}, OpenId=openid)
-    return HttpResponse(openid + " Access")
+    return HttpResponse(openid)

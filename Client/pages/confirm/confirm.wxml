@@ -17,4 +17,19 @@
       </view>
     </block>
   </view>
+  <view>
+    <view class='comments'>
+      <text>备注：</text>
+    </view>
+    <view class="textarea-wrp">
+      <textarea bindblur="bindTextAreaBlur" auto-height />
+    </view>
+  </view>
+  <view class='content_list_blank'></view>
+</view>
+<view class='Pay'>
+  <text>合计：￥{{total}}</text>
+  <button class='goPay' hover-class="icon-item_tap" bindtap='Order'>
+    <text>提交订单</text>
+  </button>
 </view>

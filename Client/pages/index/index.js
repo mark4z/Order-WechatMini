@@ -34,9 +34,9 @@ Page({
                     header: {
                       'content-type': 'application/json' // 默认值
                     },
-                    success: res => {
-                      app.globalData.openId = res.data
-                      console.log(app.globalData.openId)
+                    success(res) {
+                      app.globalData.open_id = res.data
+                      console.log(app.globalData.open_id+"  Access")
                     },
                   })
                 }

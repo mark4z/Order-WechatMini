@@ -60,7 +60,7 @@ Page({
    */
   onShow: function() {
     wx.connectSocket({
-      url: 'ws://' + this.data.static_url + '/ws/Cart/1/',
+      url: 'ws://' + this.data.static_url + '/ws/Cart/' + app.globalData.desk+'/',
     })
     wx.onSocketOpen(
       function(res) {
@@ -150,7 +150,7 @@ Page({
           "detail": {
             "name": name,
             "num": 1,
-            "desk": 1
+            "desk": app.globalData.desk
           }
         })
       })

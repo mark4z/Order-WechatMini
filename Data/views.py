@@ -65,3 +65,8 @@ def get_or_creat_order(request, order_id):
         return get_order(request, order_id)
     elif request.method == 'POST':
         return set_order(request, order_id)
+
+
+def get_my_order(request,open_id):
+    user = User.objects.get(OpenId=open_id)
+    return HttpResponse(serializers.serialize('json', Order.objects.filter(User=user)))

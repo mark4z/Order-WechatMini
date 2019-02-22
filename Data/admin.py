@@ -37,7 +37,7 @@ class OrderAdmin(admin.ModelAdmin):
     list_per_page = 10
     list_filter = ('OrderState', 'Desk')
     date_hierarchy = 'Time'
-    search_fields = ('User', 'OrderId')
+    search_fields = ('OrderId',)
 
     def save_related(self, request, form, formsets, change):
         super().save_related(request, form, formsets, change)

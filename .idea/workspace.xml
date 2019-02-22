@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3a4ca5e-d986-4168-9748-eebf54e76806" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Order.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
@@ -14,9 +18,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Order$views.coverage" NAME="views Coverage Results" MODIFIED="1547969197216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cart" />
     <SUITE FILE_PATH="coverage/Order$Test__Data_tests_AnimalTestCase_test.coverage" NAME="Test: Data.tests.AnimalTestCase.test Coverage Results" MODIFIED="1547888521717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Order$Test__Cart_tests_TestCase_test.coverage" NAME="Test: Cart.tests.TestCase.test Coverage Results" MODIFIED="1547978370903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Order$views.coverage" NAME="views Coverage Results" MODIFIED="1547969197216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cart" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -37,30 +41,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="71" column="86" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="86" />
+            <state relative-caret-position="268">
+              <caret line="77" column="86" lean-forward="true" selection-start-line="77" selection-start-column="72" selection-end-line="77" selection-end-column="86" />
               <folding>
+                <element signature="e#0#11#0" expanded="true" />
                 <element signature="e#253#738#0" />
                 <element signature="e#775#1037#0" />
                 <element signature="e#1078#1163#0" />
-                <element signature="e#1204#1816#0" />
                 <element signature="e#1866#2016#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/urls.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="280">
+              <caret line="102" column="36" lean-forward="true" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -121,14 +122,14 @@
         <option value="$PROJECT_DIR$/Cart/templates/Cart/room.html" />
         <option value="$PROJECT_DIR$/Order/urls.py" />
         <option value="$PROJECT_DIR$/Pay/urls.py" />
-        <option value="$PROJECT_DIR$/Data/admin.py" />
         <option value="$PROJECT_DIR$/Cart/consumers.py" />
         <option value="$PROJECT_DIR$/Cart/redis.py" />
         <option value="$PROJECT_DIR$/Order/settings.py" />
         <option value="$PROJECT_DIR$/Pay/views.py" />
-        <option value="$PROJECT_DIR$/Data/models.py" />
         <option value="$PROJECT_DIR$/Data/urls.py" />
+        <option value="$PROJECT_DIR$/Data/admin.py" />
         <option value="$PROJECT_DIR$/Data/views.py" />
+        <option value="$PROJECT_DIR$/Data/models.py" />
       </list>
     </option>
   </component>
@@ -148,12 +149,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="Order-WechatMini" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Order-WechatMini" type="462c0819:PsiDirectoryNode" />
+              <item name="Order" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Order" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Order-WechatMini" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Order-WechatMini" type="462c0819:PsiDirectoryNode" />
+              <item name="Order" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Order" type="462c0819:PsiDirectoryNode" />
               <item name="Data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -268,7 +269,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="Order.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\mengchao.lv\AppData\Local\Continuum\anaconda3\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\c\AppData\Local\Programs\Python\Python37\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -348,6 +349,7 @@
       <workItem from="1550661393070" duration="708000" />
       <workItem from="1550803430709" duration="6165000" />
       <workItem from="1550818476755" duration="416000" />
+      <workItem from="1550839424101" duration="7270000" />
     </task>
     <servers />
   </component>
@@ -384,7 +386,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126792000" />
+    <option name="totallyTimeSpent" value="134062000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,19 +398,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21104388" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21406959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32903227" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23709677" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29193547" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2596774" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40967742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32741934" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32419354" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32903227" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
@@ -569,16 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <element signature="e#1130#1557#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/fields/reverse_related.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="83">
@@ -590,13 +582,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26">
           <caret line="484" column="30" selection-start-line="484" selection-start-column="30" selection-end-line="484" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/fields/related.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="1095" column="8" selection-start-line="1095" selection-start-column="8" selection-end-line="1095" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -717,48 +702,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/django/core/handlers/exception.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/django/core/handlers/exception.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/django/core/handlers/base.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/fields/related.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="-1712">
+          <caret line="1095" column="8" selection-start-line="1095" selection-start-column="8" selection-end-line="1095" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/django/core/handlers/base.py">
+    <entry file="file://$PROJECT_DIR$/Data/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        <state relative-caret-position="325">
+          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <folding>
+            <element signature="e#1140#1567#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Data/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="55" lean-forward="true" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        <state relative-caret-position="171">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-419">
-          <caret line="55" column="6" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Data/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="71" column="86" lean-forward="true" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="86" />
+        <state relative-caret-position="268">
+          <caret line="77" column="86" lean-forward="true" selection-start-line="77" selection-start-column="72" selection-end-line="77" selection-end-column="86" />
           <folding>
+            <element signature="e#0#11#0" expanded="true" />
             <element signature="e#253#738#0" />
             <element signature="e#775#1037#0" />
             <element signature="e#1078#1163#0" />
-            <element signature="e#1204#1816#0" />
             <element signature="e#1866#2016#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="102" column="36" lean-forward="true" selection-start-line="102" selection-start-column="36" selection-end-line="102" selection-end-column="36" />
         </state>
       </provider>
     </entry>

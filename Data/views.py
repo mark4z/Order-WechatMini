@@ -7,6 +7,7 @@ from Cart import redis
 
 # Create your views here.
 from Data.models import Menu, MenuType, Order, Desk, User, OrderDetail
+import pickle
 
 
 def get_menu_type(request):
@@ -44,7 +45,7 @@ def get_order(request, order_id):
 
 def set_order(request, order_id):
     # 获取参数
-    user = User.objects.get(OpenId = request.POST['open_id'])
+    user = User.objects.get(OpenId=request.POST['open_id'])
     desk = Desk.objects.get(DeskMum=request.POST['desk'])
     comments = request.POST['comments']
     Order.objects.create(OrderId=order_id, User=user, Desk=desk, Comments=comments)
@@ -67,6 +68,13 @@ def get_or_creat_order(request, order_id):
         return set_order(request, order_id)
 
 
-def get_my_order(request,open_id):
+def get_my_order(request, open_id):
     user = User.objects.get(OpenId=open_id)
-    return HttpResponse(serializers.serialize('json', Order.objects.filter(User=user)))
+    orders = Order.objects.filter(User=user).order_by('Time')
+    order_list=[]
+    for i in orders:
+        menus=[]
+        for j in i.orderdetail_set.all():
+            menus.append({"name":str(j.menu.Name),"price":float(j.Price)*int(j.Number),"num":int(j.Number)})
+        order_list.append({"order_id":str(i.OrderId),"menus":menus})
+    return HttpResponse(json.dumps(order_list))

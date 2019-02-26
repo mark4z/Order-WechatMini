@@ -1,0 +1,4 @@
+<!--pages/orders/detail/detail.wxml-->
+<view wx:for="{{info}}">
+{{item.fields.menu}}
+</view>

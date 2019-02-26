@@ -1,0 +1,4 @@
+<!--pages/orders/orders.wxml-->
+<view wx:for="{{list}}" wx:key="pk">
+<view bindtap='detail' id="{{item.pk}}">{{item.pk}}</view>
+</view>

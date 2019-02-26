@@ -40,7 +40,8 @@ def get_cache(request, desk):
 
 
 def get_order(request, order_id):
-    return HttpResponse(serializers.serialize('json', Order.objects.filter(pk=order_id)))
+    order=Order.objects.get(pk=order_id)
+    return HttpResponse(serializers.serialize('json', order.orderdetail_set.all()))
 
 
 def set_order(request, order_id):
@@ -72,10 +73,4 @@ def get_or_creat_order(request, order_id):
 def get_my_order(request, open_id):
     user = User.objects.get(OpenId=open_id)
     orders = Order.objects.filter(User=user).order_by('Time')
-    order_list=[]
-    for i in orders:
-        menus=[]
-        for j in i.orderdetail_set.all():
-            menus.append({"name":str(j.menu.Name),"price":float(j.Price)*int(j.Number),"num":int(j.Number)})
-        order_list.append({"order_id":str(i.OrderId),"menus":menus})
-    return HttpResponse(json.dumps(order_list))
+    return HttpResponse(serializers.serialize('json',orders))

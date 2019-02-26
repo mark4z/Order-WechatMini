@@ -1,2 +1,10 @@
-<!--pages/me/me.wxml-->
-<text>pages/me/me.wxml</text>
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <button class='my_order' bindtap='list'>
+    <text>我的订单</text>
+  </button>
+</view>

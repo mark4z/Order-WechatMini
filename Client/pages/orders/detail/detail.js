@@ -1,4 +1,4 @@
-// pages/me/me.js
+// pages/orders/detail/detail.js
 const app = getApp()
 var static_url = app.globalData.url
 Page({
@@ -7,15 +7,25 @@ Page({
    * 页面的初始数据
    */
   data: {
-    userInfo: {},
+    'info':null,
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    this.setData({
-      userInfo: app.globalData.userInfo,
+    var that = this
+    wx.request({
+      url: static_url + "/Data/Order/" + options.id + "/",
+      header: {
+        'content-type': 'application/json'
+      },
+      success(res) {
+        console.log(res.data)
+        that.setData({
+          info: res.data
+        })
+      }
     })
   },
 
@@ -66,10 +76,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  list:function(){
-    wx.navigateTo({
-      url: '../orders/orders/orders'
-    })
   }
 })

@@ -5,7 +5,9 @@
     "pages/carte/carte",
     "pages/confirm/confirm",
     "pages/pay/pay",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/orders/orders/orders",
+    "pages/orders/detail/detail"
   ],
   "window": {
     "backgroundTextStyle": "light",

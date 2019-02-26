@@ -76,7 +76,7 @@ class Order(models.Model):
     Total = models.DecimalField('总金额', max_digits=10, decimal_places=2, default=0)
     Off = models.CharField(max_length=6, choices=Off, verbose_name='折扣', default='1')
     PayTotal = models.DecimalField('实付金额', max_digits=10, decimal_places=2, default=0)
-    OrderState = models.CharField(max_length=6, choices=State_CHOICES, verbose_name='付款状态', default='未付款')
+    OrderState = models.CharField(max_length=6, choices=State_CHOICES, verbose_name='付款状态', default='0')
     CookState = models.CharField(max_length=6, choices=Cook_CHOICES, verbose_name='后厨状态', default='0')
     Comments = models.CharField(max_length=200, verbose_name='备注', default='无')
     Menus = models.ManyToManyField(Menu, through='OrderDetail')
@@ -86,7 +86,7 @@ class Order(models.Model):
 
     class Meta:
         verbose_name_plural = '订单'
-        ordering = ["Time"]
+        ordering = ["-Time"]
 
 
 class OrderDetail(models.Model):

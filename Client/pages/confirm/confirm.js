@@ -34,6 +34,7 @@ Page({
           cache_list: res.data,
           total: total,
         })
+        app.globalData.order_id=res.data.id
       }
     })
   },
@@ -105,39 +106,8 @@ Page({
         },
         success(res) {
           console.log("下单成功！" + app.globalData.open_id)
-          wx.request({
-            url: static_url + "/Pay/" + that.data.cache_list.id + "/",
-            method: 'GET',
-            data:{
-              'open_id': app.globalData.open_id
-            },
-            success: function (res) {
-              console.log('支付参数：', res)
-              wx.requestPayment({
-                timeStamp: res.data.timeStamp,
-                nonceStr: res.data.nonceStr,
-                package: res.data.package,
-                signType: res.data.signType,
-                paySign: res.data.paySign,
-                success: function (res) {
-                  console.log('支付成功：', res)
-                  wx.request({
-                    url: static_url + "/Pay/" + that.data.cache_list.id + "/success/",
-                    method: 'GET',
-                    success(res) {
-                      console.log("PaySucc")
-                    }
-                  })
-                },
-                fail: function (res) {
-                  console.log('支付失败：', res)
-                },
-                complete: function (res) {
-                  wx.navigateTo({
-                    url: '../pay/pay'
-                  })},
-              })
-            }
+          wx.navigateTo({
+            url: '../pay/pay'
           })
         }
       })

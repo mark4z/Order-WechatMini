@@ -4,7 +4,8 @@
     "pages/login/login",
     "pages/carte/carte",
     "pages/confirm/confirm",
-    "pages/pay/pay"
+    "pages/pay/pay",
+    "pages/me/me"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -26,7 +27,7 @@
       {
         "selectedIconPath": "images/ic_menu_me_pressed.png",
         "iconPath": "images/ic_menu_me_nor.png",
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/me/me",
         "text": "我的"
       }
     ]

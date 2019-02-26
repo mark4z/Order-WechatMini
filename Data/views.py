@@ -46,7 +46,7 @@ def get_order(request, order_id):
 def set_order(request, order_id):
     # 获取参数
     user = User.objects.get(OpenId=request.POST['open_id'])
-    desk = Desk.objects.get(DeskMum=request.POST['desk'])
+    desk = Desk.objects.get(DeskMum=int(request.POST['desk']))
     comments = request.POST['comments']
     Order.objects.create(OrderId=order_id, User=user, Desk=desk, Comments=comments)
     # save cache in redis
@@ -58,6 +58,7 @@ def set_order(request, order_id):
         total += menu.Price * i['num']
     order.Total = total
     order.save()
+    redis.clean_cache(desk)
     return HttpResponse("Access")
 
 

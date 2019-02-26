@@ -1,0 +1,7 @@
+<!--pages/pay/pay.wxml-->
+<view class='page'>
+  <view class='.container'>
+    <view class='h3'>下单成功，请耐心等待</view>
+  </view>
+  <button bindtap='back'>返回首页</button>
+</view>

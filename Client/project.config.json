@@ -38,7 +38,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 2,
 			"list": [
 				{
 					"id": 0,
@@ -51,6 +51,14 @@
 					"id": -1,
 					"name": "confirm",
 					"pathName": "pages/confirm/confirm",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "pay",
+					"pathName": "pages/pay/pay",
+					"query": "",
 					"scene": null
 				}
 			]

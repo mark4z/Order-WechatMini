@@ -93,7 +93,7 @@ class OrderDetail(models.Model):
     menu = models.ForeignKey(Menu, on_delete=models.CASCADE)
     order = models.ForeignKey(Order, on_delete=models.CASCADE)
     Number = models.IntegerField('数量', default=1)
-    Price = models.DecimalField('单价', null=True, max_digits=5, decimal_places=2, default=0)
+    Price = models.DecimalField('单价快照', null=True, max_digits=5, decimal_places=2, default=0)
 
     def save(self, *args, **kwargs):
         self.Price = Menu.objects.get(Name=self.menu).Price

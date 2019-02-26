@@ -1,6 +1,6 @@
 <view class='page'>
   <view class='welcome'>
-    <view class='h3'>请确认您的菜单</view>
+    <view class='h3'>请确认您的订单</view>
   </view>
   <view class='list'>
     <view class='list_head'>
@@ -30,6 +30,6 @@
 <view class='Pay'>
   <text>合计：￥{{total}}</text>
   <button class='goPay' hover-class="icon-item_tap" bindtap='Order'>
-    <text>提交订单</text>
+    <text wx:if="{{cache_list.detail.length>0}}">提交订单</text>
   </button>
 </view>

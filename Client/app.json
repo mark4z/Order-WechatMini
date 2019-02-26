@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/login/login",
     "pages/carte/carte",
-    "pages/confirm/confirm"
+    "pages/confirm/confirm",
+    "pages/pay/pay"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -65,6 +65,28 @@ Page({
     wx.onSocketOpen(
       function(res) {
         console.log('WebSocket连接已打开！')
+        wx.request({
+          url: static_url + "/Data/Cache/" + app.globalData.desk + "",
+          header: {
+            'content-type': 'application/json'
+          },
+          success(res) {
+            that.setData({
+              cart_list: res.data.detail,
+            })
+            var list = res.data.detail
+            var num = 0
+            var price = 0
+            for (var j = 0, len = list.length; j < len; j++) {
+              num += list[j].num
+              price += list[j].price
+            }
+            that.setData({
+              list_num: num,
+              list_price: price
+            })
+          }
+        })
       }
     )
     wx.onSocketClose(

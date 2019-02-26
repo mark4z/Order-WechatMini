@@ -25,9 +25,10 @@ Page({
         'content-type': 'application/json'
       },
       success(res) {
+        console.log(res.data)
         var total = 0
         for (var i = 0; i < res.data.detail.length; i++) {
-          total += res.data.detail[i].price * res.data.detail[i].num
+          total += res.data.detail[i].price
         };
         that.setData({
           cache_list: res.data,
@@ -104,8 +105,42 @@ Page({
         },
         success(res) {
           console.log("下单成功！" + app.globalData.open_id)
+          wx.request({
+            url: static_url + "/Pay/" + that.data.cache_list.id + "/",
+            method: 'GET',
+            data:{
+              'open_id': app.globalData.open_id
+            },
+            success: function (res) {
+              console.log('支付参数：', res)
+              wx.requestPayment({
+                timeStamp: res.data.timeStamp,
+                nonceStr: res.data.nonceStr,
+                package: res.data.package,
+                signType: res.data.signType,
+                paySign: res.data.paySign,
+                success: function (res) {
+                  console.log('支付成功：', res)
+                  wx.request({
+                    url: static_url + "/Pay/" + that.data.cache_list.id + "/success/",
+                    method: 'GET',
+                    success(res) {
+                      console.log("PaySucc")
+                    }
+                  })
+                },
+                fail: function (res) {
+                  console.log('支付失败：', res)
+                },
+                complete: function (res) {
+                  wx.navigateTo({
+                    url: '../pay/pay'
+                  })},
+              })
+            }
+          })
         }
       })
     }
-  }
+  },
 })

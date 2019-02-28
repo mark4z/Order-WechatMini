@@ -1,1 +1,31 @@
-/* pages/orders/orders.wxss */
+.page {
+  width: 100%;
+  height: 600rpx;
+  background: linear-gradient(#008de1, #eee);
+  padding: 60rpx 0;
+}
+
+
+.order_list {
+  padding: 20rpx;
+  margin-left: 2.5%; 
+  margin-right: 2.5%;
+  width: 90%;
+  height: 120rpx;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1rpx solid #e3e3e3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.price {
+  color: red;
+}

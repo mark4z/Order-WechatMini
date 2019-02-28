@@ -1,4 +1,26 @@
-<!--pages/orders/detail/detail.wxml-->
-<view wx:for="{{info}}">
-{{item.fields.menu}}
+<view class='page'>
+  <view class='welcome'></view>
+  <view class='list'>
+    <view class='list_head'>
+      <text>订单:{{info.pk}}</text>
+    </view>
+    <block wx:for="{{info.detail}}" wx:key="name" wx:for-item="i">
+      <view class='list_detail'>
+        <view class='detail_img'>
+          <image mode='widthFix' lazy-load='true' src='http://{{static_url}}/Static/{{i.img}}'></image>
+        </view>
+        <view class='detail_name'>{{i.name}}</view>
+        <view class='detail_num'>x{{i.num}}</view>
+        <view style='font-size:32rpx'>￥{{i.price}}</view>
+      </view>
+    </block>
+  </view>
+  <view>
+    <view class='comments'>
+      <text>备注</text>
+    </view>
+    <view class="textarea-wrp">
+      <text>{{info.comments}}</text>
+    </view>
+  </view>
 </view>

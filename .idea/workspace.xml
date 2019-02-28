@@ -3,11 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="d3a4ca5e-d986-4168-9748-eebf54e76806" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/pages/me/me.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/me/me.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/pages/me/me.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/me/me.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/pages/me/me.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/me/me.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/pages/orders/detail/detail.js" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/orders/detail/detail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/pages/orders/detail/detail.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/orders/detail/detail.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/pages/orders/detail/detail.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/orders/detail/detail.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/pages/orders/orders/orders.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/orders/orders/orders.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/pages/orders/orders/orders.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/Client/pages/orders/orders/orders.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Client/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/project.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Data/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
@@ -40,42 +41,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Data/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
-              <folding>
-                <element signature="e#267#752#0" />
-                <element signature="e#1218#1861#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="88" column="22" selection-start-line="88" selection-start-column="22" selection-end-line="88" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -161,11 +127,6 @@
             <path>
               <item name="Order" type="b2602c69:ProjectViewProjectNode" />
               <item name="Order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Order" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Order" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -365,6 +326,7 @@
       <workItem from="1551180818960" duration="3646000" />
       <workItem from="1551185307183" duration="338000" />
       <workItem from="1551190206384" duration="2341000" />
+      <workItem from="1551354266312" duration="2487000" />
     </task>
     <servers />
   </component>
@@ -401,7 +363,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148631000" />
+    <option name="totallyTimeSpent" value="151118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,9 +376,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21709532" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22012103" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -628,13 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Order/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/django/core/handlers/exception.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/django/core/handlers/base.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/fields/related.py">
@@ -689,16 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cart/consumers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
@@ -713,16 +657,6 @@
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <element signature="e#254#865#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cart/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -751,14 +685,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Cart/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cart/consumers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Data/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="41" column="33" lean-forward="true" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        <state relative-caret-position="64">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="e#267#752#0" />
-            <element signature="e#1218#1861#0" />
+            <element signature="e#789#1051#0" />
+            <element signature="e#1092#1436#0" />
+            <element signature="e#1253#1896#0" />
+            <element signature="e#1946#2096#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="21" column="65" lean-forward="true" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
         </state>
       </provider>
     </entry>

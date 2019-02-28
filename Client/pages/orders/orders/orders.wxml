@@ -1,4 +1,12 @@
 <!--pages/orders/orders.wxml-->
-<view wx:for="{{list}}" wx:key="pk">
-<view bindtap='detail' id="{{item.pk}}">{{item.pk}}</view>
+<view class='page'>
+  <block wx:for="{{list}}" wx:key="pk" wx:for-item="i">
+    <view class="order_list" bindtap='detail' id="{{i.pk}}">
+      <view class='item'>
+        <view style='font-size:36rpx;'>{{i.pk}}</view>
+        <view style='font-size:30rpx;'>{{i.fields.Time}}</view>
+      </view>
+      <view class='price'>￥{{i.fields.Total}}</view>
+    </view>
+  </block>
 </view>

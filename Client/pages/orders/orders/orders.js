@@ -23,8 +23,8 @@ Page({
       success(res) {
         console.log(res.data)
         for(var i=0;i<res.data.length;i++){
-          var now = new Date(res.data[i].fields.Time).getTime
-          res.data[i].fields.Time= now
+          var now = new Date(res.data[i].fields.Time)
+          res.data[i].fields.Time = now.getFullYear() + "-" + now.getMonth() + "-" + now.getDay() + "  " + now.getHours() + ":" + now.getMinutes() + ":" +now.getSeconds()
         }
         that.setData({
           list: res.data

@@ -84,6 +84,18 @@ class Order(models.Model):
     def __str__(self):
         return str(self.OrderId)
 
+    def colored_status(self):
+        if self.OrderState=='0':
+            color_code='red'
+        else:
+            color_code = 'green'
+        return format_html(
+            '<span style="color: {};">{}</span>',
+            color_code,
+            self.OrderId,
+        )
+    colored_status.short_description='订单号'
+
     class Meta:
         verbose_name_plural = '订单'
         ordering = ["-Time"]

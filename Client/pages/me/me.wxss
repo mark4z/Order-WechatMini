@@ -17,9 +17,10 @@
 }
 .my_order{
   width: 88%;
-  height: 68rpx;
+  height: 86rpx;
   background-color: white;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   font-size: 40rpx;
 }

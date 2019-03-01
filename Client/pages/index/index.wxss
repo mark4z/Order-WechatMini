@@ -21,6 +21,15 @@
   border-radius: 36rpx;
   width: 42%;
 }
+.btn_start_disabled{
+  text-align: center;
+  font-size:30rpx;
+  padding: 0rpx,20rpx;
+  color:rgb(196, 196, 196);
+  border:2rpx solid #B6D9A9;
+  border-radius: 36rpx;
+  width: 42%;
+}
 .index_img{
   width: 100%;
   height: 800rpx;

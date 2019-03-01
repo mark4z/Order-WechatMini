@@ -5,6 +5,7 @@
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
   <button class='my_order' bindtap='list'>
-    <text>我的订单</text>
+    <view>我的订单</view>
+    <view class='iconfont icon-jiantouyou'></view>
   </button>
 </view>

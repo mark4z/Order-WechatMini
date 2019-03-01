@@ -22,6 +22,10 @@ Page({
       },
       success(res) {
         console.log(res.data)
+        for(var i=0;i<res.data.length;i++){
+          var now = new Date(res.data[i].fields.Time).getTime
+          res.data[i].fields.Time= now
+        }
         that.setData({
           list: res.data
         })

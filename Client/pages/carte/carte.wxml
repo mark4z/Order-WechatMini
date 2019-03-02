@@ -12,10 +12,10 @@
   <view wx:for="{{MenuType}}" wx:key="Sort" wx:for-item="i" wx:for-index='j'>
     <view class='content_type' id='list{{j}}' index='{{j}}'>{{i.Name}}</view>
     <view class='content_list' wx:for="{{i.Menus}}" wx:key="Sort" wx:for-item="items">
-      <view class='content_img'>
-        <image mode='widthFix' lazy-load='true' src='https://{{static_url}}/Static/{{items.Img}}'></image>
+      <view class='content_img' data-that='{{items}}' bindtap='Detail'>
+        <image mode='widthFix' lazy-load='true' src='{{static_url}}/Static/{{items.Img}}'></image>
       </view>
-      <view class='content_name'>
+      <view class='content_name' data-that='{{items}}' bindtap='Detail'>
         <view style='font-size:34rpx'>{{items.Name}}</view>
         <view style='color:red;font-size:32rpx'>¥ {{items.Price}}</view>
       </view>
@@ -57,4 +57,18 @@
     </view>
   </scroll-view>
   <view class='selected_blank'></view>
+</view>
+<view class='container cover' wx:if="{{detail_switch}}" bindtap='Detail'>
+<view class='close iconfont icon-guanbi'></view>
+</view>
+<view class='menu_detail' wx:if="{{detail_switch}}">
+  <view>{{menu_detail.Name}}</view>
+  <view>
+    <image class='menu_detail_img' mode='aspectFill' lazy-load='true' src='{{static_url}}/Static/{{menu_detail.Img}}'></image>
+  </view>
+  <view style='font-size:28rpx;'>{{menu_detail.Info}}</view>
+  <view class='detail_bottom'>
+    <view style="color:red;">￥{{menu_detail.Price}}</view>
+    <view style='color: #008de1;' class='iconfont icon-plus' hover-class="icon-item_tap" data-name='{{menu_detail.Name}}' data-action='+' bindtap='plus' />
+  </view>
 </view>

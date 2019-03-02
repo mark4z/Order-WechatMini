@@ -1,22 +1,25 @@
 // pages/carte/carte.js
 const app = getApp()
 var static_url = app.globalData.url
+var ip=app.globalData.ip
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    'static_url': app.globalData.ip,
+    'static_url': app.globalData.url,
     'MenuType': [],
     'now_type': '',
     'Menus': [],
     'cart': [],
     'activeMenuType': 0,
     'cart_switch': 0,
+    'detail_switch': 0,
     'cart_list': [],
     'list_price': 0,
     'list_num': 0,
+    'menu_detail': null,
   },
 
   /**
@@ -52,15 +55,15 @@ Page({
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
-  onReady: function() {
-  },
+  onReady: function() {},
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function() {
     wx.connectSocket({
-      url: 'wss://' + this.data.static_url + '/ws/Cart/' + app.globalData.desk+'/',
+      url: 'wss://' + ip + '/ws/Cart/' + app.globalData.desk + '/',
+      //url: 'ws://' + ip + '/ws/Cart/' + app.globalData.desk + '/',
     })
     wx.onSocketOpen(
       function(res) {
@@ -117,8 +120,7 @@ Page({
    * 生命周期函数--监听页面隐藏
    */
   onHide: function() {
-    wx.closeSocket({
-    })
+    wx.closeSocket({})
   },
 
   /**
@@ -183,9 +185,22 @@ Page({
         cart_switch: 0
       })
   },
-  Order:function(){
+  Order: function() {
     wx.navigateTo({
       url: '/pages/confirm/confirm'
     })
+  },
+  Detail: function(event) {
+    if (this.data.detail_switch) {
+      this.setData({
+        detail_switch: 0
+      })
+    } else {
+      var menu = event.currentTarget.dataset.that
+      this.setData({
+        detail_switch: 1,
+        menu_detail: menu
+      })
+    }
   }
 })

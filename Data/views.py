@@ -19,7 +19,8 @@ def get_menu_type(request):
             menu = {
                 'Name': j.Name,
                 'Price': float(j.Price),
-                'Img': str(j.Img)
+                'Img': str(j.Img),
+                'Info':str(j.Introduction)
             }
             menus.append(menu)
         data = {

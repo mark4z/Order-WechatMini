@@ -7,7 +7,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    'static_url': app.globalData.ip,
+    'static_url': app.globalData.url,
     'cache_list': null,
     'total': 0,
     'comments': '',

@@ -8,7 +8,7 @@ Page({
    */
   
   data: {
-    'static_url': app.globalData.ip,
+    'static_url': app.globalData.url,
     'info':null,
   },
 

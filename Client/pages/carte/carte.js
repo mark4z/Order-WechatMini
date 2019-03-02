@@ -60,7 +60,7 @@ Page({
    */
   onShow: function() {
     wx.connectSocket({
-      url: 'ws://' + this.data.static_url + '/ws/Cart/' + app.globalData.desk+'/',
+      url: 'wss://' + this.data.static_url + '/ws/Cart/' + app.globalData.desk+'/',
     })
     wx.onSocketOpen(
       function(res) {
@@ -117,7 +117,8 @@ Page({
    * 生命周期函数--监听页面隐藏
    */
   onHide: function() {
-
+    wx.closeSocket({
+    })
   },
 
   /**

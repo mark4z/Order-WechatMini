@@ -7,8 +7,10 @@ App({
   globalData: {
     // url: "http://10.129.104.16:8000",
     // ip:"10.129.104.16:8000",
-    url: "http://192.168.199.200:8000",
-    ip:"192.168.199.200:8000",
+    // url: "http://192.168.199.200:8000",
+    // ip:"192.168.199.200:8000",
+    url:"https://www.qqmxd.com",
+    ip:"www.qqmxd.com",
     userInfo: null,
     open_id: "guest",
     desk:100,

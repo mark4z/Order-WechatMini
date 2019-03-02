@@ -13,7 +13,7 @@
     <view class='content_type' id='list{{j}}' index='{{j}}'>{{i.Name}}</view>
     <view class='content_list' wx:for="{{i.Menus}}" wx:key="Sort" wx:for-item="items">
       <view class='content_img'>
-        <image mode='widthFix' lazy-load='true' src='http://{{static_url}}/Static/{{items.Img}}'></image>
+        <image mode='widthFix' lazy-load='true' src='https://{{static_url}}/Static/{{items.Img}}'></image>
       </view>
       <view class='content_name'>
         <view style='font-size:34rpx'>{{items.Name}}</view>

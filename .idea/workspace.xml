@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3a4ca5e-d986-4168-9748-eebf54e76806" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backoffice/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backoffice/templates/backoffice/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backoffice/templates/backoffice/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backoffice/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Client/project.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/Client/project.config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -129,6 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,16 +127,10 @@
               <item name="Order" type="b2602c69:ProjectViewProjectNode" />
               <item name="Order" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Order" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Order" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,7 +330,11 @@
       <workItem from="1551402754370" duration="1149000" />
       <workItem from="1551441398039" duration="2044000" />
       <workItem from="1551452782944" duration="561000" />
-      <workItem from="1551505752219" duration="1500000" />
+      <workItem from="1551505752219" duration="1621000" />
+      <workItem from="1551525462707" duration="4000" />
+      <workItem from="1551525470519" duration="3000" />
+      <workItem from="1551580266629" duration="3000" />
+      <workItem from="1551580271768" duration="4000" />
     </task>
     <servers />
   </component>
@@ -382,7 +371,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158173000" />
+    <option name="totallyTimeSpent" value="158308000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -396,12 +385,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18229954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19440243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.5016129" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.31774193" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.31774193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40967742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

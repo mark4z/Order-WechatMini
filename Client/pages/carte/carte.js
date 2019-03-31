@@ -62,7 +62,7 @@ Page({
    */
   onShow: function() {
     wx.connectSocket({
-      url: 'wss://' + ip + '/ws/Cart/' + app.globalData.desk + '/',
+      url: 'ws://' + ip + '/ws/Cart/' + app.globalData.desk + '/',
       //url: 'ws://' + ip + '/ws/Cart/' + app.globalData.desk + '/',
     })
     wx.onSocketOpen(

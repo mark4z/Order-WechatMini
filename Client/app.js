@@ -5,11 +5,10 @@ App({
     console.log("桌号:" + this.globalData.desk)
   },
   globalData: {
-    // url: "http://10.129.104.16:8000",
-    //url: "http://192.168.199.200:8000",
-    //ip:"192.168.199.200:8000",
-    url:"https://www.qqmxd.com",
-    ip:"www.qqmxd.com",
+    url: "http://127.0.0.1:8090",
+    ip:"127.0.0.1:8090",
+    // url:"https://www.qqmxd.com",
+    // ip:"www.qqmxd.com",
     userInfo: null,
     open_id: "guest",
     desk:100,

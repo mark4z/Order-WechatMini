@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d3a4ca5e-d986-4168-9748-eebf54e76806" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backoffice/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backoffice/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
@@ -13,9 +13,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Order$views.coverage" NAME="views Coverage Results" MODIFIED="1547969197216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cart" />
     <SUITE FILE_PATH="coverage/Order$Test__Data_tests_AnimalTestCase_test.coverage" NAME="Test: Data.tests.AnimalTestCase.test Coverage Results" MODIFIED="1547888521717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Order$Test__Cart_tests_TestCase_test.coverage" NAME="Test: Cart.tests.TestCase.test Coverage Results" MODIFIED="1547978370903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/Order$views.coverage" NAME="views Coverage Results" MODIFIED="1547969197216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cart" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -36,34 +36,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backoffice/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+            <state relative-caret-position="462">
+              <caret line="97" column="31" lean-forward="true" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <element signature="e#346#397#0" />
-                <element signature="e#435#1267#0" />
+                <element signature="e#380#431#0" />
+                <element signature="e#1356#2168#0" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Desktop/zm/nginx-1.15.9/conf/nginx.conf">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="53" column="52" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -71,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/backoffice/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="22" />
+            <state relative-caret-position="189">
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -149,13 +131,13 @@
         <option value="$PROJECT_DIR$/backoffice/templates/backoffice/test.html" />
         <option value="$PROJECT_DIR$/Data/views.py" />
         <option value="$PROJECT_DIR$/Order/settings.py" />
+        <option value="$PROJECT_DIR$/../../zm/nginx-1.15.9/conf/nginx.conf" />
         <option value="$PROJECT_DIR$/backoffice/urls.py" />
         <option value="$PROJECT_DIR$/backoffice/views.py" />
-        <option value="$USER_HOME$/Desktop/zm/nginx-1.15.9/conf/nginx.conf" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="3" />
     <option name="y" value="27" />
     <option name="width" value="1346" />
@@ -172,12 +154,12 @@
         <subPane>
           <expand>
             <path>
-              <item name="Order" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Order" type="462c0819:PsiDirectoryNode" />
+              <item name="Order-WechatMini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Order-WechatMini" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Order" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Order" type="462c0819:PsiDirectoryNode" />
+              <item name="Order-WechatMini" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Order-WechatMini" type="462c0819:PsiDirectoryNode" />
               <item name="backoffice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -292,7 +274,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="Order.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\c\AppData\Local\Programs\Python\Python37\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\mengchao.lv\AppData\Local\Continuum\anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -392,6 +374,7 @@
       <workItem from="1552219578436" duration="5680000" />
       <workItem from="1554009724619" duration="6317000" />
       <workItem from="1554207083019" duration="3084000" />
+      <workItem from="1555392853591" duration="9318000" />
     </task>
     <servers />
   </component>
@@ -428,7 +411,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179856000" />
+    <option name="totallyTimeSpent" value="189174000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,15 +423,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="27" width="1346" height="698" extended-state="1" />
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15204236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.5016129" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.23064516" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44677418" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.2983871" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32419354" />
@@ -456,7 +440,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32903227" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.2596774" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.46631205" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.28387097" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32419354" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32903227" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32903227" />
@@ -744,16 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backoffice/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
@@ -761,36 +735,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/contextlib.py" />
+    <entry file="file://$PROJECT_DIR$/../../zm/nginx-1.15.9/conf/nginx.conf" />
     <entry file="file://$PROJECT_DIR$/Data/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="45" column="6" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        <state relative-caret-position="226">
+          <caret line="78" column="14" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/contextlib.py">
+    <entry file="file://$PROJECT_DIR$/backoffice/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="189">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backoffice/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        <state relative-caret-position="462">
+          <caret line="97" column="31" lean-forward="true" selection-start-line="97" selection-start-column="31" selection-end-line="97" selection-end-column="31" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#346#397#0" />
-            <element signature="e#435#1267#0" />
+            <element signature="e#380#431#0" />
+            <element signature="e#1356#2168#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/zm/nginx-1.15.9/conf/nginx.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="53" column="52" selection-start-line="53" selection-start-column="52" selection-end-line="53" selection-end-column="52" />
         </state>
       </provider>
     </entry>

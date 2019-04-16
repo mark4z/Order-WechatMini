@@ -59,3 +59,44 @@ def creat_order(request):
     order.Total = total
     order.save()
     return HttpResponse("Access")
+
+
+def revenue(request, a, y, m, d):
+    global order_list_revenue
+    result = None
+    today = datetime.datetime.utcnow()
+    total = 0
+    wechat = 0
+    alipay = 0
+    cash = 0
+    data_list = []
+    if a == "today":
+        order_list_revenue = Order.objects.filter(Time__year=today.year, Time__month=today.month, Time__day=today.day)
+    if a == "month":
+        order_list_revenue = Order.objects.filter(Time__year=y, Time__month=m)
+        for i in range(1, 32):
+            day_total = 0
+            for j in order_list_revenue:
+                if j.Time.day == i:
+                    day_total += int(j.Total)
+            data_list.append({"day": i, "value": day_total})
+    if a == "year":
+        order_list_revenue = Order.objects.filter(Time__year=y)
+        for i in range(1, 13):
+            month_total = 0
+            for j in order_list_revenue:
+                if j.Time.month == i:
+                    month_total += int(j.Total)
+            data_list.append({"month": i, "value": month_total})
+    for i in order_list_revenue:
+        if i.OrderState == "1":
+            wechat += float(i.Total)
+        if i.OrderState == "2":
+            alipay += float(i.Total)
+        if i.OrderState == "3":
+            cash += float(i.Total)
+        total += float(i.Total)
+    result = {"total": total, "list": data_list,
+              "circle": [{"name": "微信", "value": wechat}, {"name": "支付宝", "value": alipay},
+                         {"name": "现金", "value": cash}]}
+    return HttpResponse(json.dumps(result))

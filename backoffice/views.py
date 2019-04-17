@@ -2,6 +2,7 @@ import datetime
 import json
 import time
 
+from django.contrib.auth.decorators import login_required
 from django.core import serializers
 from django.core.paginator import Paginator
 from django.db import transaction
@@ -12,7 +13,7 @@ from django.shortcuts import render
 from Data.models import Order, User, Desk, Menu, OrderDetail
 from backoffice.forms import NameForm
 
-
+@login_required
 def index(request):
     return render(request, 'backoffice/index.html', {})
 

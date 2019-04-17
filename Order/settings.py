@@ -21,6 +21,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '7m$a0@z5-65b^tydm#85f*z1z-eo&=8wdekyr+6acqouo2erpl'
 
+LOGIN_URL='/admin/login'
+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
@@ -131,4 +133,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "Static")
 MEDIA_URL = '/Static/img/../'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "Static"),
+    os.path.join(BASE_DIR, "backoffice/templates/backoffice"),
 ]

@@ -17,8 +17,10 @@ from django.conf.urls import url
 from django.contrib import admin
 from django.urls import path, include
 
+from backoffice import views
 
 urlpatterns = [
+    url(r'^$', views.index),
     path('admin/', admin.site.urls),
     path('Data/', include('Data.urls')),
     path('Cart/', include('Cart.urls')),

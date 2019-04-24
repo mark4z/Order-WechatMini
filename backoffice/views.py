@@ -13,6 +13,7 @@ from django.shortcuts import render
 from Data.models import Order, User, Desk, Menu, OrderDetail
 from backoffice.forms import NameForm
 
+
 @login_required
 def index(request):
     return render(request, 'backoffice/index.html', {})
@@ -101,3 +102,15 @@ def revenue(request, a, y, m, d):
               "circle": [{"name": "微信", "value": wechat}, {"name": "支付宝", "value": alipay},
                          {"name": "现金", "value": cash}]}
     return HttpResponse(json.dumps(result))
+
+
+def vip(request, p):
+    paginator = Paginator(User.objects.all(), 10)
+    for i in paginator.get_page(p):
+        total=0;
+        for j in Order.objects.filter(User=i):
+            total+=j.Total
+        i.MRP=total
+        i.save()
+    result=paginator.get_page(p)
+    return HttpResponse(serializers.serialize('json',result ))

@@ -20,7 +20,7 @@ def get_menu_type(request):
                 'Name': j.Name,
                 'Price': float(j.Price),
                 'Img': str(j.Img),
-                'Info':str(j.Introduction)
+                'Info': str(j.Introduction)
             }
             menus.append(menu)
         data = {
@@ -44,11 +44,11 @@ def get_order(request, order_id):
     order = Order.objects.get(pk=order_id)
     menus = []
     for i in order.orderdetail_set.all():
-        menus.append({"name":i.menu.Name,
+        menus.append({"name": i.menu.Name,
                       "img": str(i.menu.Img),
                       "price": float(i.Price),
                       "num": i.Number})
-    result={"pk":order_id,"comments":str(order.Comments),"Total":float(order.Total),"detail":menus}
+    result = {"pk": order_id, "comments": str(order.Comments), "Total": float(order.Total), "detail": menus}
     return HttpResponse(json.dumps(result))
 
 
@@ -82,3 +82,5 @@ def get_my_order(request, open_id):
     user = User.objects.get(OpenId=open_id)
     orders = Order.objects.filter(User=user).order_by('-Time')
     return HttpResponse(serializers.serialize('json', orders))
+
+

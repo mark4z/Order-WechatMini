@@ -35,6 +35,7 @@ class User(models.Model):
     OpenId = models.CharField('用户id', max_length=50, primary_key=True)
     Name = models.CharField('昵称', max_length=50)
     Session = models.CharField('session', max_length=50)
+    MRP = models.DecimalField('积分', default=0, decimal_places=0,max_digits=10)
 
     def __str__(self):
         return self.Name
@@ -85,8 +86,8 @@ class Order(models.Model):
         return str(self.OrderId)
 
     def colored_status(self):
-        if self.OrderState=='0':
-            color_code='red'
+        if self.OrderState == '0':
+            color_code = 'red'
         else:
             color_code = 'green'
         return format_html(
@@ -94,7 +95,8 @@ class Order(models.Model):
             color_code,
             self.OrderId,
         )
-    colored_status.short_description='订单号'
+
+    colored_status.short_description = '订单号'
 
     class Meta:
         verbose_name_plural = '订单'

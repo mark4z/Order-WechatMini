@@ -3,19 +3,97 @@
   <component name="ChangeListManager">
     <list default="true" id="d3a4ca5e-d986-4168-9748-eebf54e76806" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/templates/backoffice/css/app.e40d1127.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/1.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/111.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/111.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/1C83DA3E-1AFE-4F88-818E-D8AD300B408A.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/1C83DA3E-1AFE-4F88-818E-D8AD300B408A.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/5e8e65de03eb37d7ad8764c4531e2f16293765.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/5e8e65de03eb37d7ad8764c4531e2f16293765.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/QQ图片20180920205843.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/QQ图片20180920205843.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/QQ图片20180920205843_wEQTsY6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/QQ图片20180920205843_wEQTsY6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/Snipaste_2018-09-20_23-25-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/Snipaste_2018-09-20_23-25-12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/Snipaste_2018-09-20_23-25-12_t1mzY3E.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/Snipaste_2018-09-20_23-25-12_t1mzY3E.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/blank.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/login/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/login/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/login/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/login/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/login/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/login/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/timg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/timg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/云虫女主_月牙儿_鬼刀壁纸_彼岸图网.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/云虫女主_月牙儿_鬼刀壁纸_彼岸图网.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/凉拌墨鱼嘴.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/凉拌墨鱼嘴.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/凉拌萝卜.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/凉拌萝卜.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920204854.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920204854.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920205602.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920205602.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920205623.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920205623.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920205635.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920205635.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920205645.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920205645.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920205702.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920205702.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920205711.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920205711.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920212615.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920212615.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920220614.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920220614.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920222131.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920222131.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920222131_Y1Nqd8D.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920222131_Y1Nqd8D.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920222845.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920222845.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920223359.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920223359.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920224549.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920224549.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920225424.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920225424.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920230008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920230008.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920230830.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920230830.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920231236.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920231236.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920231325.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920231325.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920231439.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920231439.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920231941.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920231941.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180921165304.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180921165304.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180923012934.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180923012934.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920161615.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920161615.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920211116.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920211116.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920211356.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920211356.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920211551.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920211551.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920211551_ZZhE5wK.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920211551_ZZhE5wK.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920212342.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920212342.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920213012.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920213012.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920213402.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920213402.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920213402_Rei6BLz.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920213402_Rei6BLz.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920213911.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920213911.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920214206.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920214206.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920215011.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920215011.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920215842.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920215842.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920220226.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920220226.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920220453.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920220453.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920220810.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920220810.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920221053.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920221053.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920221227.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920221227.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920222439.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920222439.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920223221.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920223221.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920224148.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920224148.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920224357.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920224357.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920232354.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920232354.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920232630.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920232630.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/本店特色炒酸笋粉.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/本店特色炒酸笋粉.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/秘制锡纸烤鱼.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/秘制锡纸烤鱼.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/脆拌卤鸭肠.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/脆拌卤鸭肠.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_AVt7S6M.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_AVt7S6M.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_Btil7qK.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_Btil7qK.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_EKcvcaV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_EKcvcaV.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_FV5sKKs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_FV5sKKs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_LpBrbHv.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_LpBrbHv.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_NHNa3sA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_NHNa3sA.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_RLqZ9xQ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_RLqZ9xQ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_RqhCnGw.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_RqhCnGw.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_SUrM3Jg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_SUrM3Jg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_WctNKQw.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_WctNKQw.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_ZMUYXX5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_ZMUYXX5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_eWGraBc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_eWGraBc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_hDX2En6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_hDX2En6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_kZyML9u.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_kZyML9u.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_lZyYjTs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_lZyYjTs.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_mf5zgpE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_mf5zgpE.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_n5dchUm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_n5dchUm.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_uOduOLL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_uOduOLL.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/香炸类黄金洋芋条12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/香炸类黄金洋芋条12.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/香辣鸡丝.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/香辣鸡丝.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Static/img/鲜虾炒粉干.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/鲜虾炒粉干.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backoffice/templates/backoffice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/templates/backoffice/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/templates/backoffice/js/about.81ee1f4d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/templates/backoffice/js/about.81ee1f4d.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/templates/backoffice/js/app.61b83f0e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/templates/backoffice/js/app.61b83f0e.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/templates/backoffice/js/chunk-vendors.c68fcd22.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/templates/backoffice/js/chunk-vendors.c68fcd22.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +117,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db.sqlite3" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
@@ -47,52 +141,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backoffice/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backoffice/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/backoffice/templates/backoffice/favicon.ico">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/backoffice/templates/backoffice/index.html">
+        <entry file="file://$PROJECT_DIR$/Order/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="219">
+              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
             </state>
           </provider>
         </entry>
@@ -165,7 +218,6 @@
         <option value="$PROJECT_DIR$/backoffice/templates/backoffice/test.html" />
         <option value="$PROJECT_DIR$/../../zm/nginx-1.15.9/conf/nginx.conf" />
         <option value="$PROJECT_DIR$/Order/views.py" />
-        <option value="$PROJECT_DIR$/Order/settings.py" />
         <option value="$PROJECT_DIR$/Order/urls.py" />
         <option value="$PROJECT_DIR$/Data/models.py" />
         <option value="$PROJECT_DIR$/Data/urls.py" />
@@ -173,12 +225,13 @@
         <option value="$PROJECT_DIR$/Data/views.py" />
         <option value="$PROJECT_DIR$/backoffice/views.py" />
         <option value="$PROJECT_DIR$/backoffice/templates/backoffice/index.html" />
+        <option value="$PROJECT_DIR$/Order/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="3" />
-    <option name="y" value="27" />
+    <option name="x" value="89" />
+    <option name="y" value="34" />
     <option name="width" value="1346" />
     <option name="height" value="698" />
   </component>
@@ -190,7 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,33 +250,11 @@
               <item name="Order-WechatMini" type="b2602c69:ProjectViewProjectNode" />
               <item name="Order-WechatMini" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Order-WechatMini" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Order-WechatMini" type="462c0819:PsiDirectoryNode" />
-              <item name="backoffice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Order-WechatMini" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Order-WechatMini" type="462c0819:PsiDirectoryNode" />
-              <item name="backoffice" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Order-WechatMini" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Order-WechatMini" type="462c0819:PsiDirectoryNode" />
-              <item name="backoffice" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="backoffice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Order-WechatMini" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Order-WechatMini" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,19 +267,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\backoffice\templates\backoffice" />
-      <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\Order\templates" />
-      <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\Order" />
-      <recent name="C:\Users\c\PycharmProjects\Order\backoffice" />
-      <recent name="C:\Users\c\PycharmProjects\Order\Pay" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\backoffice\templates\backoffice" />
       <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\Static" />
       <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\Order\templates\Order" />
       <recent name="C:\Users\c\PycharmProjects\Order" />
       <recent name="C:\Users\c\PycharmProjects\Order\admin\admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\Data" />
+      <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\Data\static" />
+      <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\backoffice\templates\backoffice" />
+      <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\Order\templates" />
+      <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\Order" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -438,6 +468,8 @@
       <workItem from="1555392853591" duration="9318000" />
       <workItem from="1555480333897" duration="2752000" />
       <workItem from="1556087028626" duration="3736000" />
+      <workItem from="1556516965423" duration="2179000" />
+      <workItem from="1556519187454" duration="20000" />
     </task>
     <servers />
   </component>
@@ -474,7 +506,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195662000" />
+    <option name="totallyTimeSpent" value="197861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -486,15 +518,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18968254" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.5016129" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.27384615" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.50153846" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.30923077" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34923077" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32419354" />
@@ -502,15 +535,15 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32903227" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.2596774" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2830769" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2826421" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32419354" />
-      <window_info anchor="bottom" id="Database Console" order="13" weight="0.32903227" />
+      <window_info anchor="bottom" id="Database Console" order="13" weight="0.3276923" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32903227" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="4" weight="0.34114978" />
+      <window_info anchor="right" id="Database" order="4" weight="0.34047619" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,13 +566,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Order/routing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cart/models.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -733,16 +759,7 @@
     <entry file="file://$PROJECT_DIR$/../../zm/nginx-1.15.9/conf/nginx.conf" />
     <entry file="file://$PROJECT_DIR$/Order/templates/Order/css/app.e40d1127.css" />
     <entry file="file://$PROJECT_DIR$/Order/views.py" />
-    <entry file="file://$PROJECT_DIR$/backoffice/templates/backoffice/css/app.e40d1127.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Order/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/backoffice/templates/backoffice/css/app.e40d1127.css" />
     <entry file="file://$PROJECT_DIR$/Order/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -753,27 +770,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/views.py">
+    <entry file="file://$PROJECT_DIR$/Data/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="e#267#796#0" />
-            <element signature="e#833#1095#0" />
-            <element signature="e#1136#1550#0" />
-            <element signature="e#1591#2234#0" />
-            <element signature="e#2284#2434#0" />
-            <element signature="e#2477#2642#0" />
-          </folding>
+        <state relative-caret-position="147">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/urls.py">
+    <entry file="file://$PROJECT_DIR$/backoffice/templates/backoffice/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
+        <state relative-caret-position="63">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backoffice/templates/backoffice/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backoffice/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -788,30 +807,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/models.py">
+    <entry file="file://$PROJECT_DIR$/Data/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backoffice/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="112" column="19" selection-start-line="112" selection-start-column="19" selection-end-line="112" selection-end-column="19" />
+        <state relative-caret-position="168">
+          <caret line="8" column="55" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backoffice/templates/backoffice/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backoffice/templates/backoffice/index.html">
+    <entry file="file://$PROJECT_DIR$/Data/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="98">
+          <caret line="36" column="11" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://296d6b7f-81ef-442c-834b-de48113657b6/schema/main/table/Data_menu">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
         </state>
       </provider>
     </entry>

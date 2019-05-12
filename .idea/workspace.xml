@@ -3,97 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d3a4ca5e-d986-4168-9748-eebf54e76806" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Order/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/1.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/1.mp3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/111.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/111.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/1C83DA3E-1AFE-4F88-818E-D8AD300B408A.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/1C83DA3E-1AFE-4F88-818E-D8AD300B408A.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/5e8e65de03eb37d7ad8764c4531e2f16293765.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/5e8e65de03eb37d7ad8764c4531e2f16293765.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/QQ图片20180920205843.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/QQ图片20180920205843.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/QQ图片20180920205843_wEQTsY6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/QQ图片20180920205843_wEQTsY6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/Snipaste_2018-09-20_23-25-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/Snipaste_2018-09-20_23-25-12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/Snipaste_2018-09-20_23-25-12_t1mzY3E.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/Snipaste_2018-09-20_23-25-12_t1mzY3E.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/blank.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/blank.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/login/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/login/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/login/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/login/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/login/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/login/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/timg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/timg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/云虫女主_月牙儿_鬼刀壁纸_彼岸图网.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/云虫女主_月牙儿_鬼刀壁纸_彼岸图网.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/凉拌墨鱼嘴.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/凉拌墨鱼嘴.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/凉拌萝卜.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/凉拌萝卜.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920204854.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920204854.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920205602.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920205602.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920205623.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920205623.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920205635.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920205635.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920205645.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920205645.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920205702.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920205702.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920205711.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920205711.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920212615.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920212615.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920220614.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920220614.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920222131.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920222131.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920222131_Y1Nqd8D.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920222131_Y1Nqd8D.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920222845.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920222845.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920223359.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920223359.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920224549.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920224549.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920225424.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920225424.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920230008.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920230008.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920230830.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920230830.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920231236.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920231236.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920231325.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920231325.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920231439.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920231439.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180920231941.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180920231941.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180921165304.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180921165304.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信图片_20180923012934.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信图片_20180923012934.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920161615.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920161615.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920211116.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920211116.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920211356.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920211356.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920211551.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920211551.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920211551_ZZhE5wK.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920211551_ZZhE5wK.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920212342.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920212342.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920213012.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920213012.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920213402.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920213402.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920213402_Rei6BLz.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920213402_Rei6BLz.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920213911.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920213911.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920214206.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920214206.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920215011.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920215011.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920215842.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920215842.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920220226.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920220226.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920220453.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920220453.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920220810.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920220810.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920221053.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920221053.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920221227.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920221227.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920222439.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920222439.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920223221.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920223221.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920224148.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920224148.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920224357.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920224357.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920232354.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920232354.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/微信截图_20180920232630.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/微信截图_20180920232630.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/本店特色炒酸笋粉.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/本店特色炒酸笋粉.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/秘制锡纸烤鱼.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/秘制锡纸烤鱼.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/脆拌卤鸭肠.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/脆拌卤鸭肠.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_AVt7S6M.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_AVt7S6M.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_Btil7qK.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_Btil7qK.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_EKcvcaV.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_EKcvcaV.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_FV5sKKs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_FV5sKKs.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_LpBrbHv.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_LpBrbHv.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_NHNa3sA.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_NHNa3sA.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_RLqZ9xQ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_RLqZ9xQ.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_RqhCnGw.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_RqhCnGw.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_SUrM3Jg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_SUrM3Jg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_WctNKQw.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_WctNKQw.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_ZMUYXX5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_ZMUYXX5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_eWGraBc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_eWGraBc.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_hDX2En6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_hDX2En6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_kZyML9u.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_kZyML9u.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_lZyYjTs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_lZyYjTs.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_mf5zgpE.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_mf5zgpE.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_n5dchUm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_n5dchUm.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/菜品图片_uOduOLL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/菜品图片_uOduOLL.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/香炸类黄金洋芋条12.png" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/香炸类黄金洋芋条12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/香辣鸡丝.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/香辣鸡丝.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Static/img/鲜虾炒粉干.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Data/static/鲜虾炒粉干.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backoffice/templates/backoffice/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/backoffice/templates/backoffice/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,9 +12,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Order$views.coverage" NAME="views Coverage Results" MODIFIED="1547969197216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cart" />
     <SUITE FILE_PATH="coverage/Order$Test__Data_tests_AnimalTestCase_test.coverage" NAME="Test: Data.tests.AnimalTestCase.test Coverage Results" MODIFIED="1547888521717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/Order$Test__Cart_tests_TestCase_test.coverage" NAME="Test: Cart.tests.TestCase.test Coverage Results" MODIFIED="1547978370903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/Order$views.coverage" NAME="views Coverage Results" MODIFIED="1547969197216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cart" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -141,11 +51,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Order/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+            <state relative-caret-position="2394">
+              <caret line="126" selection-start-line="126" selection-end-line="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="342">
+                <caret line="1514" column="22" lean-forward="true" selection-start-line="1514" selection-start-column="22" selection-end-line="1514" selection-end-column="22" />
+                <folding>
+                  <element signature="n#!!doc" expanded="true" />
+                  <element signature="n#style#0;n#view#0;n#view#1;n#view#1;n#view#0;n#scroll-view#0;n#!!top" expanded="true" />
+                  <element signature="n#style#0;n#view#1;n#view#1;n#view#1;n#view#0;n#scroll-view#0;n#!!top" expanded="true" />
+                  <element signature="n#style#0;n#text#0;n#view#0;n#view#3;n#!!top" expanded="true" />
+                  <element signature="n#style#0;n#view#1;n#view#0;n#view#3;n#!!top" expanded="true" />
+                  <element signature="n#style#0;n#view#0;n#view#5;n#!!top" expanded="true" />
+                  <element signature="n#style#0;n#view#1;n#view#0;n#scroll-view#0;n#view#5;n#!!top" expanded="true" />
+                  <element signature="n#style#0;n#view#2;n#view#7;n#!!top" expanded="true" />
+                  <element signature="n#style#0;n#view#0;n#view#3;n#view#7;n#!!top" expanded="true" />
+                  <element signature="n#style#0;n#view#1;n#view#3;n#view#7;n#!!top" expanded="true" />
+                  <element signature="n#style#0;n#view#3;n#view#0;n#block#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -216,7 +151,7 @@
         <option value="$PROJECT_DIR$/backoffice/templates/Cart/index.html" />
         <option value="$PROJECT_DIR$/backoffice/forms.py" />
         <option value="$PROJECT_DIR$/backoffice/templates/backoffice/test.html" />
-        <option value="$PROJECT_DIR$/../../zm/nginx-1.15.9/conf/nginx.conf" />
+        <option value="$USER_HOME$/zm/nginx-1.15.9/conf/nginx.conf" />
         <option value="$PROJECT_DIR$/Order/views.py" />
         <option value="$PROJECT_DIR$/Order/urls.py" />
         <option value="$PROJECT_DIR$/Data/models.py" />
@@ -226,6 +161,7 @@
         <option value="$PROJECT_DIR$/backoffice/views.py" />
         <option value="$PROJECT_DIR$/backoffice/templates/backoffice/index.html" />
         <option value="$PROJECT_DIR$/Order/settings.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -243,18 +179,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Order-WechatMini" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Order-WechatMini" type="462c0819:PsiDirectoryNode" />
+              <item name="Order" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Order" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -470,6 +406,8 @@
       <workItem from="1556087028626" duration="3736000" />
       <workItem from="1556516965423" duration="2179000" />
       <workItem from="1556519187454" duration="20000" />
+      <workItem from="1557659986060" duration="45000" />
+      <workItem from="1557660131344" duration="939000" />
     </task>
     <servers />
   </component>
@@ -506,7 +444,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197861000" />
+    <option name="totallyTimeSpent" value="198845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,10 +456,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20574887" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -566,9 +504,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Cart/models.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cart/templates/Cart/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -756,7 +691,7 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/contextlib.py" />
-    <entry file="file://$PROJECT_DIR$/../../zm/nginx-1.15.9/conf/nginx.conf" />
+    <entry file="file://$USER_HOME$/zm/nginx-1.15.9/conf/nginx.conf" />
     <entry file="file://$PROJECT_DIR$/Order/templates/Order/css/app.e40d1127.css" />
     <entry file="file://$PROJECT_DIR$/Order/views.py" />
     <entry file="file://$PROJECT_DIR$/backoffice/templates/backoffice/css/app.e40d1127.css" />
@@ -833,8 +768,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Order/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="126" lean-forward="true" selection-start-line="126" selection-end-line="126" />
+        <state relative-caret-position="2394">
+          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="342">
+            <caret line="1514" column="22" lean-forward="true" selection-start-line="1514" selection-start-column="22" selection-end-line="1514" selection-end-column="22" />
+            <folding>
+              <element signature="n#!!doc" expanded="true" />
+              <element signature="n#style#0;n#view#0;n#view#1;n#view#1;n#view#0;n#scroll-view#0;n#!!top" expanded="true" />
+              <element signature="n#style#0;n#view#1;n#view#1;n#view#1;n#view#0;n#scroll-view#0;n#!!top" expanded="true" />
+              <element signature="n#style#0;n#text#0;n#view#0;n#view#3;n#!!top" expanded="true" />
+              <element signature="n#style#0;n#view#1;n#view#0;n#view#3;n#!!top" expanded="true" />
+              <element signature="n#style#0;n#view#0;n#view#5;n#!!top" expanded="true" />
+              <element signature="n#style#0;n#view#1;n#view#0;n#scroll-view#0;n#view#5;n#!!top" expanded="true" />
+              <element signature="n#style#0;n#view#2;n#view#7;n#!!top" expanded="true" />
+              <element signature="n#style#0;n#view#0;n#view#3;n#view#7;n#!!top" expanded="true" />
+              <element signature="n#style#0;n#view#1;n#view#3;n#view#7;n#!!top" expanded="true" />
+              <element signature="n#style#0;n#view#3;n#view#0;n#block#0;n#view#1;n#view#0;n#!!top" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

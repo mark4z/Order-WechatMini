@@ -15,6 +15,7 @@ class MenuType(models.Model):
 
     class Meta:
         verbose_name_plural = '菜品分类'
+        verbose_name = '菜品分类'
 
 
 class Menu(models.Model):
@@ -28,20 +29,22 @@ class Menu(models.Model):
         return self.Name
 
     class Meta:
-        verbose_name_plural = '菜单'
+        verbose_name_plural = '菜品'
+        verbose_name = '菜品'
 
 
 class User(models.Model):
     OpenId = models.CharField('用户id', max_length=50, primary_key=True)
     Name = models.CharField('昵称', max_length=50)
     Session = models.CharField('session', max_length=50)
-    MRP = models.DecimalField('积分', default=0, decimal_places=0,max_digits=10)
+    MRP = models.DecimalField('积分', default=0, decimal_places=0, max_digits=10)
 
     def __str__(self):
         return self.Name
 
     class Meta:
         verbose_name_plural = '用户'
+        verbose_name = '用户'
 
 
 class Desk(models.Model):
@@ -51,7 +54,8 @@ class Desk(models.Model):
         return str(self.DeskMum)
 
     class Meta:
-        verbose_name_plural = '桌号'
+        verbose_name_plural = '餐桌'
+        verbose_name = '餐桌'
 
 
 class Order(models.Model):
@@ -100,6 +104,7 @@ class Order(models.Model):
 
     class Meta:
         verbose_name_plural = '订单'
+        verbose_name = '订单'
         ordering = ["-Time"]
 
 
@@ -115,6 +120,7 @@ class OrderDetail(models.Model):
 
     class Meta:
         verbose_name_plural = '订单详情'
+        verbose_name = '订单详情'
 
     def __str__(self):
         return str(self.menu)
@@ -127,3 +133,4 @@ class Expenses(models.Model):
 
     class Meta:
         verbose_name_plural = '支出'
+        verbose_name = '支出'

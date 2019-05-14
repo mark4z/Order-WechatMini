@@ -130,7 +130,7 @@ USE_TZ = True
 STATIC_ROOT = '/Static/'
 STATIC_URL = '/Static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, "Data/static")
-MEDIA_URL = '/Static/img/../'
+# MEDIA_URL = '/Static/img/../'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "Static"),
     os.path.join(BASE_DIR, "backoffice/templates/backoffice"),

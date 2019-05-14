@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3a4ca5e-d986-4168-9748-eebf54e76806" name="Default Changelist" comment="" />
+    <list default="true" id="d3a4ca5e-d986-4168-9748-eebf54e76806" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Order/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Order/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,36 +56,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Order/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2394">
-              <caret line="126" selection-start-line="126" selection-end-line="126" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SECOND">
-              <first_editor relative-caret-position="528">
-                <caret line="2276" column="12" selection-start-line="2276" selection-start-column="12" selection-end-line="2276" selection-end-column="12" />
-                <folding>
-                  <element signature="n#!!doc" expanded="true" />
-                  <element signature="n#style#0;n#view#0;n#view#1;n#view#1;n#view#0;n#scroll-view#0;n#!!top" expanded="true" />
-                  <element signature="n#style#0;n#view#1;n#view#1;n#view#1;n#view#0;n#scroll-view#0;n#!!top" expanded="true" />
-                  <element signature="n#style#0;n#text#0;n#view#0;n#view#3;n#!!top" expanded="true" />
-                  <element signature="n#style#0;n#view#1;n#view#0;n#view#3;n#!!top" expanded="true" />
-                  <element signature="n#style#0;n#view#0;n#view#5;n#!!top" expanded="true" />
-                  <element signature="n#style#0;n#view#1;n#view#0;n#scroll-view#0;n#view#5;n#!!top" expanded="true" />
-                  <element signature="n#style#0;n#view#2;n#view#7;n#!!top" expanded="true" />
-                  <element signature="n#style#0;n#view#0;n#view#3;n#view#7;n#!!top" expanded="true" />
-                  <element signature="n#style#0;n#view#1;n#view#3;n#view#7;n#!!top" expanded="true" />
-                  <element signature="n#style#0;n#view#3;n#view#0;n#block#0;n#view#1;n#view#0;n#!!top" expanded="true" />
-                </folding>
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/Data/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="248">
+              <caret line="135" column="27" lean-forward="true" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -144,21 +127,23 @@
         <option value="$PROJECT_DIR$/Cart/redis.py" />
         <option value="$PROJECT_DIR$/Pay/urls.py" />
         <option value="$PROJECT_DIR$/Pay/views.py" />
-        <option value="$PROJECT_DIR$/Data/admin.py" />
         <option value="$PROJECT_DIR$/backoffice/templates/Cart/index.html" />
         <option value="$PROJECT_DIR$/backoffice/forms.py" />
         <option value="$PROJECT_DIR$/backoffice/templates/backoffice/test.html" />
         <option value="$USER_HOME$/zm/nginx-1.15.9/conf/nginx.conf" />
         <option value="$PROJECT_DIR$/Order/views.py" />
         <option value="$PROJECT_DIR$/Order/urls.py" />
-        <option value="$PROJECT_DIR$/Data/models.py" />
         <option value="$PROJECT_DIR$/Data/urls.py" />
         <option value="$PROJECT_DIR$/backoffice/urls.py" />
         <option value="$PROJECT_DIR$/Data/views.py" />
         <option value="$PROJECT_DIR$/backoffice/views.py" />
         <option value="$PROJECT_DIR$/backoffice/templates/backoffice/index.html" />
-        <option value="$PROJECT_DIR$/Order/settings.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Data/admin.py" />
+        <option value="$PROJECT_DIR$/Order/settings.py" />
+        <option value="$PROJECT_DIR$/Data/__init__.py" />
+        <option value="$PROJECT_DIR$/Data/apps.py" />
+        <option value="$PROJECT_DIR$/Data/models.py" />
       </list>
     </option>
   </component>
@@ -176,7 +161,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,6 +172,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,19 +185,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\backoffice\templates\backoffice" />
-      <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\Static" />
-      <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\Order\templates\Order" />
-      <recent name="C:\Users\c\PycharmProjects\Order" />
-      <recent name="C:\Users\c\PycharmProjects\Order\admin\admin" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\Data" />
       <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\Data\static" />
       <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\backoffice\templates\backoffice" />
       <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\Order\templates" />
       <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\Order" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\backoffice\templates\backoffice" />
+      <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\Static" />
+      <recent name="C:\Users\mengchao.lv\Desktop\doc\Order-WechatMini\Order\templates\Order" />
+      <recent name="C:\Users\c\PycharmProjects\Order" />
+      <recent name="C:\Users\c\PycharmProjects\Order\admin\admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -298,7 +283,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="Order.settings" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\mengchao.lv\AppData\Local\Continuum\anaconda3\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\c\AppData\Local\Programs\Python\Python37\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -405,6 +390,8 @@
       <workItem from="1556519187454" duration="20000" />
       <workItem from="1557659986060" duration="45000" />
       <workItem from="1557660131344" duration="1117000" />
+      <workItem from="1557808750507" duration="197000" />
+      <workItem from="1557808949734" duration="1642000" />
     </task>
     <servers />
   </component>
@@ -441,7 +428,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199023000" />
+    <option name="totallyTimeSpent" value="200896000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,15 +441,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20574887" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15128593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.50153846" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.30923077" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34923077" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.30806452" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3483871" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32419354" />
@@ -470,7 +456,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32903227" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.2596774" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2826421" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32741934" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32419354" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3276923" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32903227" />
@@ -501,64 +487,15 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Cart/templates/Cart/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Static/index/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Static/index/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Static/index/3.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/fields/reverse_related.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="222" column="6" selection-start-line="222" selection-start-column="6" selection-end-line="222" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="484" column="30" selection-start-line="484" selection-start-column="30" selection-end-line="484" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/manager.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-295">
-          <caret line="152" column="34" lean-forward="true" selection-start-line="152" selection-start-column="34" selection-end-line="152" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/query.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="941" lean-forward="true" selection-start-line="941" selection-end-line="941" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/serializers/json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="75" column="6" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/serializers/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-685">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/fields/reverse_related.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/base.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/manager.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/query.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/serializers/json.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/serializers/__init__.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/asgiref/sync.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/channels/consumer.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/channels/generic/websocket.py" />
@@ -583,13 +520,7 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/django/core/handlers/exception.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Continuum/anaconda3/Lib/site-packages/django/core/handlers/base.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/fields/related.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1712">
-          <caret line="1095" column="8" selection-start-line="1095" selection-start-column="8" selection-end-line="1095" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/fields/related.py" />
     <entry file="file://$PROJECT_DIR$/Pay/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -617,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/backoffice/templates/Cart/room.html" />
     <entry file="file://$PROJECT_DIR$/backoffice/forms.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -633,13 +557,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/backoffice/templates/backoffice/test.html" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/fields/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="1286" column="6" selection-start-line="1286" selection-start-column="6" selection-end-line="1286" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/db/models/fields/__init__.py" />
     <entry file="file://$PROJECT_DIR$/Cart/redis.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-236">
@@ -680,13 +598,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/core/handlers/base.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/contextlib.py" />
     <entry file="file://$USER_HOME$/zm/nginx-1.15.9/conf/nginx.conf" />
     <entry file="file://$PROJECT_DIR$/Order/templates/Order/css/app.e40d1127.css" />
@@ -699,13 +611,6 @@
           <folding>
             <element signature="e#629#661#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -763,13 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Order/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2394">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SECOND">
@@ -790,6 +688,51 @@
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/django/apps/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+          <folding>
+            <element signature="e#39#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Order/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="129" column="22" lean-forward="true" selection-start-line="129" selection-start-column="22" selection-end-line="129" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="135" column="27" lean-forward="true" selection-start-line="135" selection-start-column="27" selection-end-line="135" selection-end-column="27" />
         </state>
       </provider>
     </entry>

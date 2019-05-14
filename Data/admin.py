@@ -2,24 +2,18 @@ from django.contrib import admin
 from .models import *
 
 admin.site.site_header = '小程序后台管理'
-admin.site.register(User)
+#admin.site.register(User)
 admin.site.register(Desk)
 admin.site.register(MenuType)
-admin.site.register(OrderDetail)
+#admin.site.register(OrderDetail)
 
-
-@admin.register(Expenses)
-class ExpensesAdmin(admin.ModelAdmin):
-    list_display = ('Time', 'Price')
-    search_fields = ('Time', 'Price')
-    list_per_page = 10
-    date_hierarchy = 'Time'
-    list_filter = ('Time',)  # 过滤器
 
 
 @admin.register(Menu)
 class MenuAdmin(admin.ModelAdmin):
     search_fields = ['Name']
+    list_display = ('Name', 'Type')
+    list_filter = ('Type',)
 
 
 class OrderDetailInline(admin.TabularInline):
